@@ -1,0 +1,10 @@
+body {
+    border: 10px solid red !important;
+}
+
+blockquote{
+    background-color: #1ca6ddff !important; 
+    border-left: 5px solid #04eaf1ff; 
+    padding: 10px;
+    color: #ffffffff;
+}

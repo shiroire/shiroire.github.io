@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Blog on \ shiroire /</title>
+        <link>https://shiroire.github.io/categories/blog/</link>
+        <description>Recent content in Blog on \ shiroire /</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>白楽 - shiroraku</copyright>
+        <lastBuildDate>Mon, 16 Mar 2026 14:23:01 +0800</lastBuildDate><atom:link href="https://shiroire.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Private Practice</title>
+        <link>https://shiroire.github.io/p/private-practice/</link>
+        <pubDate>Mon, 16 Mar 2026 13:38:24 +0800</pubDate>
+        
+        <guid>https://shiroire.github.io/p/private-practice/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;链接以及链接文字颜色配置实验&lt;a href=&#34;https://www.bilibili.com/video/BV1bovfeaEtQ/&#34; style=&#34;color: #3678dbff&#34;&gt;up主的视频&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;1级标题&#34;&gt;1级标题
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;这是 关于 &amp;gt; 下内容的背景颜色以及文字颜色配置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;!-- {style=&#34;background-color: #1ca6ddff; border-left: 5px solid #04eaf1ff; padding: 10px;color: #ffffffff&#34;} --&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
