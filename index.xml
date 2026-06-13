@@ -267,14 +267,18 @@ $$&lt;h2 id=&#34;antialiasing&#34;&gt;AntiAliasing
 &lt;ul&gt;
 &lt;li&gt;Approximate the effect of the 1-pixel box filter by sampling multiple locations within a pixel and averaging their values:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%201.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%201.png&#34;
+	width=&#34;577&#34;
+	height=&#34;617&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%201_hu_f9c46b9c26ec37b6.png 480w, https://shiroire.github.io/p/cg/image%201_hu_d8262b0f896e5435.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;93&#34;
+		data-flex-basis=&#34;224px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -500,27 +504,35 @@ $$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%202.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%202.png&#34;
+	width=&#34;1665&#34;
+	height=&#34;1163&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%202_hu_f0fcb5bba8d358a.png 480w, https://shiroire.github.io/p/cg/image%202_hu_39fe2e169854b749.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;343px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;graphics-real-time-rendering-pipeline&#34;&gt;Graphics (Real-time Rendering) Pipeline
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%203.png&#34;
-	
-	
-	
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%203.png&#34;
+	width=&#34;1602&#34;
+	height=&#34;1078&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%203_hu_41442c3cd89f7dcd.png 480w, https://shiroire.github.io/p/cg/image%203_hu_b8c449427dbad667.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -631,14 +643,18 @@ $$
     \alpha = \frac{A_A}{A_A+A_B+A_C}\\
     \beta = \frac{A_B}{A_A+A_B+A_C}\\
     \gamma = \frac{A_C}{A_A+A_B+A_C}
-    $$&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%204.png&#34;
-	
-	
-	
+    $$&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%204.png&#34;
+	width=&#34;909&#34;
+	height=&#34;438&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%204_hu_eb4b87b6cd0ee761.png 480w, https://shiroire.github.io/p/cg/image%204_hu_7b5c3ab683b12430.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;207&#34;
+		data-flex-basis=&#34;498px&#34;
 	
 &gt;&lt;/p&gt;
 $$
@@ -676,14 +692,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Bilinear Interpolation (双线性插值)&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%205.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%205.png&#34;
+	width=&#34;997&#34;
+	height=&#34;579&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%205_hu_bd3470473d725d0.png 480w, https://shiroire.github.io/p/cg/image%205_hu_9912f67647541a8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;413px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -694,14 +714,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Texture Magnification (What if the texture is too large?) &lt;strong&gt;(Hard Case)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%206.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%206.png&#34;
+	width=&#34;939&#34;
+	height=&#34;536&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%206_hu_c7b88f5e7afcdc7a.png 480w, https://shiroire.github.io/p/cg/image%206_hu_aa1d1f425e815397.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;420px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -746,7 +770,7 @@ $$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%207.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%207&amp;#43;.png&#34;
 	
 	
 	
@@ -774,14 +798,18 @@ $$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%208.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%208.png&#34;
+	width=&#34;1000&#34;
+	height=&#34;636&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%208_hu_e587dc3cb9786550.png 480w, https://shiroire.github.io/p/cg/image%208_hu_6b5b975477b86cc8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;377px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -846,27 +874,35 @@ $$
 &lt;li&gt;How to modify normal vector?&lt;/li&gt;
 &lt;li&gt;How to perturb the normal (in flatland)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%209.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%209.png&#34;
+	width=&#34;1747&#34;
+	height=&#34;920&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%209_hu_bdbcf1d3eb3ce868.png 480w, https://shiroire.github.io/p/cg/image%209_hu_6563132f6c32f41c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;189&#34;
+		data-flex-basis=&#34;455px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;How to perturb the normal (in 3D)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2010.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2010.png&#34;
+	width=&#34;1787&#34;
+	height=&#34;777&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2010_hu_3bc90be3f69b66e3.png 480w, https://shiroire.github.io/p/cg/image%2010_hu_ac1acb49818f60a3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;229&#34;
+		data-flex-basis=&#34;551px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -922,14 +958,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;Explicit Surface — Sampling Is Easy&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2011.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2011.png&#34;
+	width=&#34;1563&#34;
+	height=&#34;862&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2011_hu_8ccde518f3e4187b.png 480w, https://shiroire.github.io/p/cg/image%2011_hu_7cade87b5cfeb690.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;435px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -971,14 +1011,18 @@ $$
 &lt;li&gt;Closed-form equations are hard to describe complex shapes&lt;/li&gt;
 &lt;li&gt;Alternative: store a grid of values approximating function&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2012.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2012.png&#34;
+	width=&#34;684&#34;
+	height=&#34;377&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2012_hu_fa3a9fbfbcf9bbda.png 480w, https://shiroire.github.io/p/cg/image%2012_hu_a414bc24f921a204.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;435px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1048,34 +1092,46 @@ $$
 &lt;li&gt;&lt;strong&gt;Defining Cubic Bezier Curve With Tangents&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;de-casteljaus-algorithm-evaluating-bezier-curves&#34;&gt;De Casteljau’s algorithm (Evaluating Bezier Curves)
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2013.png&#34;
-	
-	
-	
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2013.png&#34;
+	width=&#34;826&#34;
+	height=&#34;617&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2013_hu_cd5221c969115462.png 480w, https://shiroire.github.io/p/cg/image%2013_hu_e329e9513baa7c31.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;321px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2014.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2014.png&#34;
+	width=&#34;958&#34;
+	height=&#34;627&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2014_hu_b21dad901af86391.png 480w, https://shiroire.github.io/p/cg/image%2014_hu_fe37e5e901520f64.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;152&#34;
+		data-flex-basis=&#34;366px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2015.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2015.png&#34;
+	width=&#34;919&#34;
+	height=&#34;620&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2015_hu_df20d78fb99559d0.png 480w, https://shiroire.github.io/p/cg/image%2015_hu_bd2f59973dab3085.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;355px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1127,14 +1183,18 @@ $$&lt;ul&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2016.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2016.png&#34;
+	width=&#34;618&#34;
+	height=&#34;629&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2016_hu_347524568ed9463c.png 480w, https://shiroire.github.io/p/cg/image%2016_hu_2c34f18da3ee25c7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;98&#34;
+		data-flex-basis=&#34;235px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1187,14 +1247,18 @@ $$&lt;ul&gt;
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Extend Bezier curves to surfaces&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2017.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2017.png&#34;
+	width=&#34;1632&#34;
+	height=&#34;1113&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2017_hu_ac38e20427721fc.png 480w, https://shiroire.github.io/p/cg/image%2017_hu_bd7cf559c5ca4bfb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;146&#34;
+		data-flex-basis=&#34;351px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;triangles--quads&#34;&gt;Triangles &amp;amp; quads
@@ -1345,14 +1409,18 @@ $$
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;whitted-stylerecursive-ray-tracing&#34;&gt;Whitted-Style(Recursive) Ray Tracing
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2018.png&#34;
-	
-	
-	
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2018.png&#34;
+	width=&#34;1020&#34;
+	height=&#34;537&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2018_hu_c72fad603e6ee6ec.png 480w, https://shiroire.github.io/p/cg/image%2018_hu_798a3d190476320.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;189&#34;
+		data-flex-basis=&#34;455px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;ray-surface-intersection&#34;&gt;Ray-Surface Intersection
@@ -1362,14 +1430,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Ray is defined by its origin and a direction vector&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2019.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2019.png&#34;
+	width=&#34;1007&#34;
+	height=&#34;268&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2019_hu_5b37ce56f620563e.png 480w, https://shiroire.github.io/p/cg/image%2019_hu_878b2a2debac237e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;375&#34;
+		data-flex-basis=&#34;901px&#34;
 	
 &gt;&lt;/p&gt;
 $$
@@ -1400,14 +1472,18 @@ $$
 &lt;li&gt;
 &lt;p&gt;Solve for intersection:&lt;/p&gt;
 &lt;p&gt;$(\mathbf{o}+t\mathbf{d}-\mathbf{c})^2-R^2=0$&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2020.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2020.png&#34;
+	width=&#34;988&#34;
+	height=&#34;382&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2020_hu_a707d626237aafac.png 480w, https://shiroire.github.io/p/cg/image%2020_hu_9473c1c18cb7f809.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;258&#34;
+		data-flex-basis=&#34;620px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1450,14 +1526,18 @@ $$
 &lt;li&gt;A faster approach, giving barycentric coordinate directly&lt;/li&gt;
 &lt;li&gt;Derivation in the discussion section!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2021.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2021.png&#34;
+	width=&#34;1090&#34;
+	height=&#34;465&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2021_hu_2aab7ce21a9db260.png 480w, https://shiroire.github.io/p/cg/image%2021_hu_7bcc41c62260e104.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;234&#34;
+		data-flex-basis=&#34;562px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1546,14 +1626,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Why Axis-Aligned&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2022.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2022.png&#34;
+	width=&#34;1062&#34;
+	height=&#34;537&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2022_hu_b078685514a912b6.png 480w, https://shiroire.github.io/p/cg/image%2022_hu_8ea515ca7b0eded5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;197&#34;
+		data-flex-basis=&#34;474px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1575,27 +1659,35 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Spatial partitions&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2023.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2023.png&#34;
+	width=&#34;1082&#34;
+	height=&#34;688&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2023_hu_ae144a05eb2eed50.png 480w, https://shiroire.github.io/p/cg/image%2023_hu_e1105e7107d65d41.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;377px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;KD-Tree Pre-Processing&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2024.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2024.png&#34;
+	width=&#34;1038&#34;
+	height=&#34;613&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2024_hu_8ed92fb46adf526c.png 480w, https://shiroire.github.io/p/cg/image%2024_hu_12cdc6ed2640a417.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;406px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1772,14 +1864,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Important Light Measurements of Interest&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2025.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2025.png&#34;
+	width=&#34;1066&#34;
+	height=&#34;509&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2025_hu_a5f314e5bee47af2.png 480w, https://shiroire.github.io/p/cg/image%2025_hu_9bf777584d8efd36.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;209&#34;
+		data-flex-basis=&#34;502px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1817,14 +1913,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Diffrential Solid Angles&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2026.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2026.png&#34;
+	width=&#34;1069&#34;
+	height=&#34;592&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2026_hu_bc6bde76316a32b4.png 480w, https://shiroire.github.io/p/cg/image%2026_hu_4189b85923783a84.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;180&#34;
+		data-flex-basis=&#34;433px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1842,14 +1942,18 @@ $$
         $$&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Modern LED Light (example)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2027.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2027.png&#34;
+	width=&#34;1093&#34;
+	height=&#34;652&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2027_hu_a199753d89d4c8d0.png 480w, https://shiroire.github.io/p/cg/image%2027_hu_babbfd753009c7fc.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;402px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1905,14 +2009,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Incident radiance is the irradiance per unit solid angle arriving at the surface.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2028.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2028.png&#34;
+	width=&#34;542&#34;
+	height=&#34;233&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2028_hu_5ae118c2647de3a0.png 480w, https://shiroire.github.io/p/cg/image%2028_hu_ed979c05f8df701d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;232&#34;
+		data-flex-basis=&#34;558px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1924,14 +2032,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Exiting surface radiance is the intensity per unit projected area leaving the surface.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2029.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2029.png&#34;
+	width=&#34;538&#34;
+	height=&#34;245&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2029_hu_6c74fb4db2d2eb7e.png 480w, https://shiroire.github.io/p/cg/image%2029_hu_b39539495d3fd55.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;219&#34;
+		data-flex-basis=&#34;527px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1947,14 +2059,18 @@ $$
 $$
         dE(p,\omega)=L_i(p,\omega)cos\theta d\omega\\
         E(p)=\int_{H^2}L_i(p,\omega)cos\theta d\omega
-        $$&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2030.png&#34;
-	
-	
-	
+        $$&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2030.png&#34;
+	width=&#34;650&#34;
+	height=&#34;237&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2030_hu_d6f496270515173d.png 480w, https://shiroire.github.io/p/cg/image%2030_hu_6c45aad766e7eee3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;274&#34;
+		data-flex-basis=&#34;658px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1971,14 +2087,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Radiance from direction $\omega_i$ turns into the power E that dA receives Then power E will become the radiance to any other direction $\omega_o$&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2031.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2031.png&#34;
+	width=&#34;745&#34;
+	height=&#34;348&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2031_hu_41dd4af9688b43f0.png 480w, https://shiroire.github.io/p/cg/image%2031_hu_2a1413130e31c4a7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;214&#34;
+		data-flex-basis=&#34;513px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1987,27 +2107,35 @@ $$
 &lt;ul&gt;
 &lt;li&gt;The Bidirectional Reflectance Distribution Function (BRDF) represents how much light is reflected into each outgoing direction $\omega_r$ from each incoming direction&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2032.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2032.png&#34;
+	width=&#34;658&#34;
+	height=&#34;352&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2032_hu_e3582d511252bced.png 480w, https://shiroire.github.io/p/cg/image%2032_hu_4058b56ba48b48a6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;448px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The Reflection Equation&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2033.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2033.png&#34;
+	width=&#34;655&#34;
+	height=&#34;462&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2033_hu_5112d1f2829cf568.png 480w, https://shiroire.github.io/p/cg/image%2033_hu_bc9f04da32324323.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;340px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -2016,14 +2144,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Reflected radiance depends on incoming radiance&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2034.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2034.png&#34;
+	width=&#34;682&#34;
+	height=&#34;279&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2034_hu_b83254b6fdd32d18.png 480w, https://shiroire.github.io/p/cg/image%2034_hu_184d26dda3e6e554.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;244&#34;
+		data-flex-basis=&#34;586px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -2051,53 +2183,69 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;点光源&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2035.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2035.png&#34;
+	width=&#34;700&#34;
+	height=&#34;413&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2035_hu_b53e4fe983ef297c.png 480w, https://shiroire.github.io/p/cg/image%2035_hu_e97b215d8de138e1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;406px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;多个点光源&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2036.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2036.png&#34;
+	width=&#34;737&#34;
+	height=&#34;496&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2036_hu_9002003871d20d21.png 480w, https://shiroire.github.io/p/cg/image%2036_hu_25d774235f2b28f5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;面光源&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2037.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2037.png&#34;
+	width=&#34;758&#34;
+	height=&#34;445&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2037_hu_c306ebb28e837300.png 480w, https://shiroire.github.io/p/cg/image%2037_hu_b03f8993ef7f3174.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;408px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;考虑间接光源&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2038.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2038.png&#34;
+	width=&#34;718&#34;
+	height=&#34;455&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2038_hu_dac11a73ee6939c1.png 480w, https://shiroire.github.io/p/cg/image%2038_hu_d7ab1ff7d835848b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;378px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -2106,27 +2254,35 @@ $$
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Rendering Equation as Integral Equation&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2039.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2039.png&#34;
+	width=&#34;738&#34;
+	height=&#34;390&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2039_hu_a54e7d6e49da0fe3.png 480w, https://shiroire.github.io/p/cg/image%2039_hu_75006898fe796f48.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;189&#34;
+		data-flex-basis=&#34;454px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;引入全局光照&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2040.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2040.png&#34;
+	width=&#34;639&#34;
+	height=&#34;458&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2040_hu_6290015d8f1b701f.png 480w, https://shiroire.github.io/p/cg/image%2040_hu_4c6a8e4566749915.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;139&#34;
+		data-flex-basis=&#34;334px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -2170,27 +2326,35 @@ $$&lt;ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Whitted-Style Ray Tracing : Problem 1&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2041.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2041.png&#34;
+	width=&#34;788&#34;
+	height=&#34;461&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2041_hu_f49f54af92f8c0af.png 480w, https://shiroire.github.io/p/cg/image%2041_hu_f9dfb5af50364bfb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;410px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Whitted-Style Ray Tracing : Problem 2&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2042.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2042.png&#34;
+	width=&#34;715&#34;
+	height=&#34;465&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2042_hu_6b99dc4ea33a3b04.png 480w, https://shiroire.github.io/p/cg/image%2042_hu_2b808fba18cea7b4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;369px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -2220,14 +2384,18 @@ $$
 &lt;li&gt;Abuse the concept of Reflection Equation a little bit&lt;/li&gt;
 &lt;li&gt;we assume all directions are pointing outwards&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2043.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2043.png&#34;
+	width=&#34;783&#34;
+	height=&#34;438&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2043_hu_d889026c6eed4eee.png 480w, https://shiroire.github.io/p/cg/image%2043_hu_88bfb7bd51d7a5ce.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;178&#34;
+		data-flex-basis=&#34;429px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -2341,14 +2509,18 @@ $$
 &lt;li&gt;But this will be noisy!&lt;/li&gt;
 &lt;li&gt;No problem, just trace more &lt;strong&gt;paths&lt;/strong&gt; through each pixel and average their radiance!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2044.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2044.png&#34;
+	width=&#34;640&#34;
+	height=&#34;272&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2044_hu_c94ea97b70787127.png 480w, https://shiroire.github.io/p/cg/image%2044_hu_d760567072d2ca08.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;235&#34;
+		data-flex-basis=&#34;564px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -2431,27 +2603,35 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;But it’s not really efficient&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2045.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2045.png&#34;
+	width=&#34;758&#34;
+	height=&#34;343&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2045_hu_18faaef63a3b723c.png 480w, https://shiroire.github.io/p/cg/image%2045_hu_d02470d2e7c93fd6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;220&#34;
+		data-flex-basis=&#34;530px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Understanding the reason of being inefficient&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2046.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2046.png&#34;
+	width=&#34;822&#34;
+	height=&#34;278&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2046_hu_478716be8a4495a5.png 480w, https://shiroire.github.io/p/cg/image%2046_hu_c424e0f35182197c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;295&#34;
+		data-flex-basis=&#34;709px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -2465,14 +2645,18 @@ $$
 &lt;li&gt;pdf = 1 / A (because $\int pdf~dA = 1$)&lt;/li&gt;
 &lt;li&gt;But the rendering equation integrates on the solid angle: Lo = $\int Li ~fr ~cos ~d\omega$&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2047.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2047.png&#34;
+	width=&#34;767&#34;
+	height=&#34;450&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2047_hu_1984a1544829e757.png 480w, https://shiroire.github.io/p/cg/image%2047_hu_46ed267c69d55e70.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;409px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -2568,14 +2752,18 @@ $$&lt;ul&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2048.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2048.png&#34;
+	width=&#34;758&#34;
+	height=&#34;502&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2048_hu_a3467cd69848b5ec.png 480w, https://shiroire.github.io/p/cg/image%2048_hu_ba3b000fe8e77ac3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;362px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -2601,53 +2789,69 @@ $$&lt;ul&gt;
 &lt;ul&gt;
 &lt;li&gt;Light is eqully reflected in each output direction&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2049.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2049.png&#34;
+	width=&#34;777&#34;
+	height=&#34;371&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2049_hu_c7bc94825ba28abf.png 480w, https://shiroire.github.io/p/cg/image%2049_hu_c9463f64da4afaac.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;209&#34;
+		data-flex-basis=&#34;502px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Glossy material (BRDF)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2050.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2050.png&#34;
+	width=&#34;272&#34;
+	height=&#34;182&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2050_hu_c8996cb5e9f3db40.png 480w, https://shiroire.github.io/p/cg/image%2050_hu_1a77b301210a442c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Ideal reflective / refractive material (BSDF*)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2051.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2051.png&#34;
+	width=&#34;269&#34;
+	height=&#34;185&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2051_hu_d0aff53c7669dec5.png 480w, https://shiroire.github.io/p/cg/image%2051_hu_8341398e22ba145e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;145&#34;
+		data-flex-basis=&#34;348px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Perfect Specular Reflection&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2052.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2052.png&#34;
+	width=&#34;683&#34;
+	height=&#34;330&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2052_hu_bf2e076332eb50d1.png 480w, https://shiroire.github.io/p/cg/image%2052_hu_eb68b1cd477783b2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;206&#34;
+		data-flex-basis=&#34;496px&#34;
 	
 &gt;&lt;/p&gt;
 $$
@@ -2670,26 +2874,34 @@ $$
 &lt;li&gt;index of refraction (IOR) for incident ray&lt;/li&gt;
 &lt;li&gt;index of refraction (IOR) for exiting ray&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2053.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2053.png&#34;
+	width=&#34;315&#34;
+	height=&#34;347&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2053_hu_bdf717f90be89368.png 480w, https://shiroire.github.io/p/cg/image%2053_hu_6b691709723637fc.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;90&#34;
+		data-flex-basis=&#34;217px&#34;
 	
 &gt;&lt;/p&gt;
 $$
         \eta_isin\theta_i=\eta_tsin\theta_t
-        $$&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2054.png&#34;
-	
-	
-	
+        $$&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2054.png&#34;
+	width=&#34;249&#34;
+	height=&#34;301&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2054_hu_deef322d3236aad6.png 480w, https://shiroire.github.io/p/cg/image%2054_hu_f4b2fa4cc68446a9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;82&#34;
+		data-flex-basis=&#34;198px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -2697,14 +2909,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Law of Refraction&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2055.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2055.png&#34;
+	width=&#34;834&#34;
+	height=&#34;362&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2055_hu_9453632e7928c154.png 480w, https://shiroire.github.io/p/cg/image%2055_hu_7c1d0a5562ef42e4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;230&#34;
+		data-flex-basis=&#34;552px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -2726,14 +2942,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Snell’s Window / Circle&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2056.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2056.png&#34;
+	width=&#34;868&#34;
+	height=&#34;425&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2056_hu_7de9305d69134523.png 480w, https://shiroire.github.io/p/cg/image%2056_hu_fc3c081e94862fb8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;204&#34;
+		data-flex-basis=&#34;490px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -2745,27 +2965,35 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Dielectric $\eta=1.5$&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2057.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2057.png&#34;
+	width=&#34;634&#34;
+	height=&#34;514&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2057_hu_2ad58d2c5aec7070.png 480w, https://shiroire.github.io/p/cg/image%2057_hu_e2b935256d034f5c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;296px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Conductor&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2058.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2058.png&#34;
+	width=&#34;666&#34;
+	height=&#34;513&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2058_hu_a3c7449c77ef86b9.png 480w, https://shiroire.github.io/p/cg/image%2058_hu_3d581e6f85e882e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;311px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -2825,14 +3053,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;What kind of microfacets reflect wi to wo? (hint: microfacets are mirrors)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2059.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2059.png&#34;
+	width=&#34;639&#34;
+	height=&#34;378&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2059_hu_738badf6e5f1f6fa.png 480w, https://shiroire.github.io/p/cg/image%2059_hu_adf507bb2b11be72.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;405px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -2848,14 +3080,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Key: directionality of underlying surface&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2060.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2060.png&#34;
+	width=&#34;542&#34;
+	height=&#34;386&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2060_hu_771226d49bad4fb8.png 480w, https://shiroire.github.io/p/cg/image%2060_hu_96cec6370717ccf2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;140&#34;
+		data-flex-basis=&#34;336px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3164,27 +3400,35 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;At any point as light travels through a participating medium, it can be (partially) absorbed and scattered.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2061.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2061.png&#34;
+	width=&#34;678&#34;
+	height=&#34;221&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2061_hu_7b924597ddff91f9.png 480w, https://shiroire.github.io/p/cg/image%2061_hu_404496b2df63cf37.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;306&#34;
+		data-flex-basis=&#34;736px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Use Phase Function to describe the angular distribution of light scattering at any point x within participating media.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2062.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2062.png&#34;
+	width=&#34;666&#34;
+	height=&#34;216&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2062_hu_cd3bc07bdeb38021.png 480w, https://shiroire.github.io/p/cg/image%2062_hu_1cc4640e65d801e3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;308&#34;
+		data-flex-basis=&#34;740px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3204,14 +3448,18 @@ $$
 &lt;li&gt;Kajiya-Kay Model (不太真实) 直接反射&lt;/li&gt;
 &lt;li&gt;Marschner Model (R)部分直接反射 + (TT)穿透 + (TRT)穿透后反射&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2063.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2063.png&#34;
+	width=&#34;743&#34;
+	height=&#34;487&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2063_hu_f09c183896bd80b9.png 480w, https://shiroire.github.io/p/cg/image%2063_hu_35c468d25ff37cc3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;152&#34;
+		data-flex-basis=&#34;366px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3220,27 +3468,35 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Cannot represent diffusive and saturated appearance ( Marschner)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2064.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2064.png&#34;
+	width=&#34;703&#34;
+	height=&#34;474&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2064_hu_fb73143d4685ae50.png 480w, https://shiroire.github.io/p/cg/image%2064_hu_ff0f3ad597897425.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;355px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Double Cylinder Model&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2065.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2065.png&#34;
+	width=&#34;690&#34;
+	height=&#34;420&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2065_hu_539376681a48f9a4.png 480w, https://shiroire.github.io/p/cg/image%2065_hu_d3ad87441d5488b4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;164&#34;
+		data-flex-basis=&#34;394px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3272,14 +3528,18 @@ $$
 &lt;/ul&gt;
 $$
     L(x_o,\omega_o) = \int_A\int_{H^2}S(x_i,\omega_i,x_o,\omega_o)L_i(x_i,\omega_i)cos\theta_id\omega_i dA
-    $$&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2066.png&#34;
-	
-	
-	
+    $$&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2066.png&#34;
+	width=&#34;401&#34;
+	height=&#34;181&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2066_hu_3cc787a178e23172.png 480w, https://shiroire.github.io/p/cg/image%2066_hu_f9dbda431feccfbd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;221&#34;
+		data-flex-basis=&#34;531px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3288,14 +3548,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Approximate light diffusion by introducing two point sources.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2067.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2067.png&#34;
+	width=&#34;669&#34;
+	height=&#34;400&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2067_hu_373d771f42248dc0.png 480w, https://shiroire.github.io/p/cg/image%2067_hu_5770489cee32768f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;401px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3307,27 +3571,35 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Two levels of twist&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2068.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2068.png&#34;
+	width=&#34;718&#34;
+	height=&#34;122&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2068_hu_a97a723ce7724af8.png 480w, https://shiroire.github.io/p/cg/image%2068_hu_3d658deafec4130c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;588&#34;
+		data-flex-basis=&#34;1412px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Woven or knitted&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2069.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2069.png&#34;
+	width=&#34;636&#34;
+	height=&#34;239&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2069_hu_965e1b9e12d2a1fb.png 480w, https://shiroire.github.io/p/cg/image%2069_hu_5155eafbdd7c2fbf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;266&#34;
+		data-flex-basis=&#34;638px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3371,14 +3643,18 @@ $$
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Pinholes &amp;amp; Lenses Form Image on Sensor(传感器)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2070.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2070.png&#34;
+	width=&#34;570&#34;
+	height=&#34;455&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2070_hu_3b08e5ee1e40e009.png 480w, https://shiroire.github.io/p/cg/image%2070_hu_c55c355ad663fa81.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;300px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3396,14 +3672,18 @@ $$
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Effect of Focal Length(焦距) on FOV&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2071.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2071.png&#34;
+	width=&#34;650&#34;
+	height=&#34;354&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2071_hu_66f1ff16bd3e044f.png 480w, https://shiroire.github.io/p/cg/image%2071_hu_808c3a8849f1ea9b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;183&#34;
+		data-flex-basis=&#34;440px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -3428,14 +3708,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Effect of Sensor Size on FOV&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2072.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2072.png&#34;
+	width=&#34;715&#34;
+	height=&#34;511&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2072_hu_3bc11fac42d7e8e.png 480w, https://shiroire.github.io/p/cg/image%2072_hu_665ec96920d026f2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;139&#34;
+		data-flex-basis=&#34;335px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3513,14 +3797,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Example: these paris of aperture and shutter speed give equivalent exposure&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2073.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2073.png&#34;
+	width=&#34;754&#34;
+	height=&#34;139&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2073_hu_3d3c5b10013fa26c.png 480w, https://shiroire.github.io/p/cg/image%2073_hu_995bae5ac6d700a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;542&#34;
+		data-flex-basis=&#34;1301px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -3532,14 +3820,18 @@ $$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2074.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2074.png&#34;
+	width=&#34;741&#34;
+	height=&#34;439&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2074_hu_fe144cec36d3b137.png 480w, https://shiroire.github.io/p/cg/image%2074_hu_8b8bb78b92402192.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;168&#34;
+		data-flex-basis=&#34;405px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3560,14 +3852,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Real Lens Elements Are Not Ideal — Aberrations&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2075.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2075.png&#34;
+	width=&#34;612&#34;
+	height=&#34;368&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2075_hu_3dde6f160edd39f9.png 480w, https://shiroire.github.io/p/cg/image%2075_hu_8185aba2061e8adb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;166&#34;
+		data-flex-basis=&#34;399px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3581,14 +3877,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The Thin Lens Equation&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2076.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2076.png&#34;
+	width=&#34;734&#34;
+	height=&#34;303&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2076_hu_499d19705e95d6b6.png 480w, https://shiroire.github.io/p/cg/image%2076_hu_bb615e1b7fd6dacc.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;242&#34;
+		data-flex-basis=&#34;581px&#34;
 	
 &gt;&lt;/p&gt;
 $$
@@ -3596,24 +3896,32 @@ $$
     $$&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Gauss’ Ray Tracing Construction&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2077.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2077.png&#34;
+	width=&#34;748&#34;
+	height=&#34;392&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2077_hu_fb45da4519c846c1.png 480w, https://shiroire.github.io/p/cg/image%2077_hu_9fa0bcf421bfe7f1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;190&#34;
+		data-flex-basis=&#34;457px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2078.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2078.png&#34;
+	width=&#34;705&#34;
+	height=&#34;460&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2078_hu_da74548447f61f05.png 480w, https://shiroire.github.io/p/cg/image%2078_hu_4dbe58ac55518899.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;367px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3625,14 +3933,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Circleof confusion is proportional to the size of the aperture&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2079.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2079.png&#34;
+	width=&#34;690&#34;
+	height=&#34;322&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2079_hu_c6ca0b854ca559d7.png 480w, https://shiroire.github.io/p/cg/image%2079_hu_54c99d2440e337d8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;214&#34;
+		data-flex-basis=&#34;514px&#34;
 	
 &gt;&lt;/p&gt;
 $$
@@ -3781,14 +4093,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Only need plenoptic surface&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2080.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2080.png&#34;
+	width=&#34;607&#34;
+	height=&#34;366&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2080_hu_534c335e4df8c08a.png 480w, https://shiroire.github.io/p/cg/image%2080_hu_5b4d029d4410892c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;165&#34;
+		data-flex-basis=&#34;398px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3834,14 +4150,18 @@ $$
 &lt;li&gt;Each pixel (irradiance) is now stored as a block of pixels (radiance)&lt;/li&gt;
 &lt;li&gt;A close-up view of a picture taken&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2081.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2081.png&#34;
+	width=&#34;223&#34;
+	height=&#34;467&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2081_hu_66c7e4020f9374d4.png 480w, https://shiroire.github.io/p/cg/image%2081_hu_27778cd36ba6e597.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;47&#34;
+		data-flex-basis=&#34;114px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -3981,24 +4301,32 @@ $$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2082.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2082.png&#34;
+	width=&#34;688&#34;
+	height=&#34;500&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2082_hu_ec402be0a22d4684.png 480w, https://shiroire.github.io/p/cg/image%2082_hu_27e3a77e494a224d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;137&#34;
+		data-flex-basis=&#34;330px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2083.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2083.png&#34;
+	width=&#34;735&#34;
+	height=&#34;487&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2083_hu_6670ba90507daffc.png 480w, https://shiroire.github.io/p/cg/image%2083_hu_ebcc74c13a703bf3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;362px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -4039,14 +4367,18 @@ $$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2084.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2084.png&#34;
+	width=&#34;729&#34;
+	height=&#34;489&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2084_hu_3eb79edbb9d0d919.png 480w, https://shiroire.github.io/p/cg/image%2084_hu_93842eb4aecbf653.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;357px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -4115,14 +4447,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Force pulls points together&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2085.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2085.png&#34;
+	width=&#34;445&#34;
+	height=&#34;142&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2085_hu_17fbec8a802d484f.png 480w, https://shiroire.github.io/p/cg/image%2085_hu_e83b0e4c5981f789.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;313&#34;
+		data-flex-basis=&#34;752px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -4142,14 +4478,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Spring with non-zero rest length&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2086.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2086.png&#34;
+	width=&#34;473&#34;
+	height=&#34;277&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2086_hu_67ca3e9b34685383.png 480w, https://shiroire.github.io/p/cg/image%2086_hu_b90082466f25676e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;409px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -4174,14 +4514,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Simple motion damping&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2087.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2087.png&#34;
+	width=&#34;329&#34;
+	height=&#34;52&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2087_hu_3934a28118b45051.png 480w, https://shiroire.github.io/p/cg/image%2087_hu_3291aed60e5d621e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;632&#34;
+		data-flex-basis=&#34;1518px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -4203,14 +4547,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Damp only the internal, spring-driven motion&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2088.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2088.png&#34;
+	width=&#34;667&#34;
+	height=&#34;202&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2088_hu_c6acae1651b7dfe4.png 480w, https://shiroire.github.io/p/cg/image%2088_hu_da1bd4610c8a0401.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;330&#34;
+		data-flex-basis=&#34;792px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -4229,46 +4577,62 @@ $$
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Behavior is determined by structure linkages&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2089.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2089.png&#34;
+	width=&#34;680&#34;
+	height=&#34;247&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2089_hu_5d94083c95522b8e.png 480w, https://shiroire.github.io/p/cg/image%2089_hu_9985d13a740b7be5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;275&#34;
+		data-flex-basis=&#34;660px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2090.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2090.png&#34;
+	width=&#34;643&#34;
+	height=&#34;279&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2090_hu_2239728cee859272.png 480w, https://shiroire.github.io/p/cg/image%2090_hu_2273dcc5badfee04.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;230&#34;
+		data-flex-basis=&#34;553px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2091.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2091.png&#34;
+	width=&#34;674&#34;
+	height=&#34;279&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2091_hu_81b65fc6ecd4d97e.png 480w, https://shiroire.github.io/p/cg/image%2091_hu_4b5c1bcffcee5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;241&#34;
+		data-flex-basis=&#34;579px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2092.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2092.png&#34;
+	width=&#34;699&#34;
+	height=&#34;257&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2092_hu_4d66316a61b21a7b.png 480w, https://shiroire.github.io/p/cg/image%2092_hu_597000871cc99922.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;271&#34;
+		data-flex-basis=&#34;652px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -4331,14 +4695,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Gravitational pull between particles&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2093.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2093.png&#34;
+	width=&#34;579&#34;
+	height=&#34;253&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2093_hu_5a4de66e5b1b0ca3.png 480w, https://shiroire.github.io/p/cg/image%2093_hu_20ef0659872cc94d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;228&#34;
+		data-flex-basis=&#34;549px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -4383,14 +4751,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Animator provides angles, and computer determines position p of end-effector&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2094.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2094.png&#34;
+	width=&#34;696&#34;
+	height=&#34;363&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2094_hu_955e48f43eb625a3.png 480w, https://shiroire.github.io/p/cg/image%2094_hu_2dca9db511b1a317.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;191&#34;
+		data-flex-basis=&#34;460px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -4492,14 +4864,18 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The Production Pipeline&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2095.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2095.png&#34;
+	width=&#34;560&#34;
+	height=&#34;471&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2095_hu_1a4390ee7d0283d5.png 480w, https://shiroire.github.io/p/cg/image%2095_hu_5153d981aafdf9f1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;118&#34;
+		data-flex-basis=&#34;285px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -4563,24 +4939,32 @@ $$
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Euler integration is particularly bad&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2096.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2096.png&#34;
+	width=&#34;677&#34;
+	height=&#34;408&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2096_hu_16c7e2e583dde2f0.png 480w, https://shiroire.github.io/p/cg/image%2096_hu_922c1af37ebae7f4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;165&#34;
+		data-flex-basis=&#34;398px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2097.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2097.png&#34;
+	width=&#34;687&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2097_hu_187f450da51e095c.png 480w, https://shiroire.github.io/p/cg/image%2097_hu_99e4c6a51dfabe5d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;166&#34;
+		data-flex-basis=&#34;400px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -4642,14 +5026,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;如果一次模拟后与实际误差不大 代表步长可以保持/增大 否则减少步长&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2098.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2098.png&#34;
+	width=&#34;720&#34;
+	height=&#34;434&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2098_hu_5b568b5a3bb1c00f.png 480w, https://shiroire.github.io/p/cg/image%2098_hu_584aea1def52934b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;165&#34;
+		data-flex-basis=&#34;398px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -4746,14 +5134,18 @@ $$
 &lt;li&gt;Similar to simulating a particle&lt;/li&gt;
 &lt;li&gt;Just consider a bit more properties&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%2099.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%2099.png&#34;
+	width=&#34;647&#34;
+	height=&#34;223&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%2099_hu_16492411b4d0ca0a.png 480w, https://shiroire.github.io/p/cg/image%2099_hu_510bcd8072052362.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;290&#34;
+		data-flex-basis=&#34;696px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -4779,14 +5171,18 @@ $$
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Two different views to simulating large collections of matters&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%20100.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%20100.png&#34;
+	width=&#34;663&#34;
+	height=&#34;354&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%20100_hu_4cb77f442ad44b5e.png 480w, https://shiroire.github.io/p/cg/image%20100_hu_b4cfc48e5d24c754.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;187&#34;
+		data-flex-basis=&#34;449px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -4837,24 +5233,32 @@ $$
 &lt;ul&gt;
 &lt;li&gt;Project visible points in eye view back to light source&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%20101.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%20101.png&#34;
+	width=&#34;723&#34;
+	height=&#34;619&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%20101_hu_1e340c95ff109fcd.png 480w, https://shiroire.github.io/p/cg/image%20101_hu_51bfc06bfcf82fc8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;116&#34;
+		data-flex-basis=&#34;280px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%20102.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%20102.png&#34;
+	width=&#34;953&#34;
+	height=&#34;621&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%20102_hu_d07123d10bebf866.png 480w, https://shiroire.github.io/p/cg/image%20102_hu_f8d8a9d78e9f9dbc.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;368px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -4876,76 +5280,104 @@ $$
 &lt;p&gt;Problems with shadow maps&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%20103.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%20103.png&#34;
+	width=&#34;1071&#34;
+	height=&#34;677&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%20103_hu_25be2aa1580e6cd3.png 480w, https://shiroire.github.io/p/cg/image%20103_hu_fb73e46b8370a767.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;379px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%20104.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%20104.png&#34;
+	width=&#34;655&#34;
+	height=&#34;462&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%20104_hu_5112d1f2829cf568.png 480w, https://shiroire.github.io/p/cg/image%20104_hu_bc9f04da32324323.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;340px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;题外话&#34;&gt;题外话
 &lt;/h1&gt;&lt;h2 id=&#34;ta入门&#34;&gt;TA入门
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%20105.png&#34;
-	
-	
-	
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%20105.png&#34;
+	width=&#34;522&#34;
+	height=&#34;595&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%20105_hu_c1f8c845f648c60f.png 480w, https://shiroire.github.io/p/cg/image%20105_hu_f7846e5568c10744.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;87&#34;
+		data-flex-basis=&#34;210px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%20106.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%20106.png&#34;
+	width=&#34;343&#34;
+	height=&#34;595&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%20106_hu_9f92b0aa0d424771.png 480w, https://shiroire.github.io/p/cg/image%20106_hu_dfe00f65310b49e1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;57&#34;
+		data-flex-basis=&#34;138px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%20107.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%20107.png&#34;
+	width=&#34;377&#34;
+	height=&#34;489&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%20107_hu_2e5b359672b01a5.png 480w, https://shiroire.github.io/p/cg/image%20107_hu_b3dccf6a43dd5a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;77&#34;
+		data-flex-basis=&#34;185px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%20108.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%20108.png&#34;
+	width=&#34;605&#34;
+	height=&#34;277&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%20108_hu_b1d5fd9e5faa23c7.png 480w, https://shiroire.github.io/p/cg/image%20108_hu_2bf2a855bc90439b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;218&#34;
+		data-flex-basis=&#34;524px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/image%20109.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://shiroire.github.io/p/cg/image%20109.png&#34;
+	width=&#34;766&#34;
+	height=&#34;534&#34;
+	srcset=&#34;https://shiroire.github.io/p/cg/image%20109_hu_57c19693a14d110b.png 480w, https://shiroire.github.io/p/cg/image%20109_hu_b1180b20f9e67d4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image.png&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;344px&#34;
 	
 &gt;&lt;/p&gt;
 </description>
