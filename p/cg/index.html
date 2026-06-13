@@ -1,0 +1,5464 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="CG 相关笔记">
+<title>CG</title>
+
+<link rel='canonical' href='https://shiroire.github.io/p/cg/'>
+
+<link rel="stylesheet" href="/scss/style.min.7ec47c7fbe7b8e5c3cb47bcb478b6d819682add4f212d0843450a5e20ca2dd33.css"><meta property='og:title' content="CG">
+<meta property='og:description' content="CG 相关笔记">
+<meta property='og:url' content='https://shiroire.github.io/p/cg/'>
+<meta property='og:site_name' content='\ shiroire /'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2026-06-13T14:14:13&#43;08:00'/><meta property='article:modified_time' content='2026-06-13T14:17:53&#43;08:00'/>
+<meta name="twitter:title" content="CG">
+<meta name="twitter:description" content="CG 相关笔记">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_fec22e913e9184b7.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🥵</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">\ shiroire /</a></h1>
+            <h2 class="site-description">shiroire&#39;s blog</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/354508223'
+                        target="_blank"
+                        title="shiroile"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <g>
+        <path fill="none" d="M0 0h24v24H0z"/>
+        <path d="M7.172 2.757L10.414 6h3.171l3.243-3.242a1 1 0 0 1 1.415 1.415l-1.829 1.827L18.5 6A3.5 3.5 0 0 1 22 9.5v8a3.5 3.5 0 0 1-3.5 3.5h-13A3.5 3.5 0 0 1 2 17.5v-8A3.5 3.5 0 0 1 5.5 6h2.085L5.757 4.171a1 1 0 0 1 1.415-1.415zM18.5 8h-13a1.5 1.5 0 0 0-1.493 1.356L4 9.5v8a1.5 1.5 0 0 0 1.356 1.493L5.5 19h13a1.5 1.5 0 0 0 1.493-1.356L20 17.5v-8A1.5 1.5 0 0 0 18.5 8zM8 11a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1zm8 0a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1z"/>
+    </g>
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/shiroire'
+                        target="_blank"
+                        title="shiroile"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/misc/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>杂项</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/cg/" >
+                CG
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/cg/">CG</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            CG 相关笔记
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2026-06-13</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 25 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="图形学入门">图形学(入门)
+</h1><h1 id="线性代数">线性代数
+</h1><h2 id="点乘">点乘
+</h2>$$
+\mathbf{a}\cdot\mathbf{b} = \|a\|\|b\|cos\theta
+$$<ul>
+<li>能反映俩个向量的接近程度 (一束光打过来的强弱)</li>
+<li>分解向量</li>
+<li>正反</li>
+</ul>
+<h2 id="叉乘">叉乘
+</h2>$$
+\mathbf{a}\times\mathbf{b}=\|a\|\|b\|sin\phi
+$$<p>矩阵表示</p>
+$$
+\mathbf{a}\times\mathbf{b}=A^*\mathbf{b}=\begin{pmatrix}0 & -z_a & y_a\\ z_a & 0 & -x_a\\ -y_a & x_a & 0\end{pmatrix}\begin{pmatrix}x_b \\ y_b \\ z_b\end{pmatrix}
+$$<ul>
+<li>判断左/右</li>
+<li>判断内/外</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="n">def</span> <span class="n">is_point_in_polygon</span><span class="p">(</span><span class="n">point</span><span class="p">,</span> <span class="n">polygon_vertices</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">n</span> <span class="p">=</span> <span class="n">len</span><span class="p">(</span><span class="n">polygon_vertices</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">count</span> <span class="p">=</span> <span class="m">0</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="k">in</span> <span class="n">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="n">v1</span> <span class="p">=</span> <span class="n">polygon_vertices</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">v2</span> <span class="p">=</span> <span class="n">polygon_vertices</span><span class="p">[(</span><span class="n">i</span> <span class="p">+</span> <span class="m">1</span><span class="p">)</span> <span class="p">%</span> <span class="n">n</span><span class="p">]</span> <span class="err">#</span> <span class="err">下一个顶点，循环列表</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="err">#</span> <span class="err">检查边是否跨越点的水平线</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">v1</span><span class="p">.</span><span class="n">y</span> <span class="p">&gt;</span> <span class="n">point</span><span class="p">.</span><span class="n">y</span><span class="p">)</span> <span class="p">==</span> <span class="p">(</span><span class="n">v2</span><span class="p">.</span><span class="n">y</span> <span class="p">&gt;</span> <span class="n">point</span><span class="p">.</span><span class="n">y</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">continue</span> <span class="err">#</span> <span class="err">边的两个端点在同一侧，跳过</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="err">#</span> <span class="err">使用叉乘计算并判断交点是否在点的右侧</span>
+</span></span><span class="line"><span class="cl">        <span class="err">#</span> <span class="err">计算</span> <span class="p">(</span><span class="n">v2</span> <span class="p">-</span> <span class="n">v1</span><span class="p">)</span> <span class="n">x</span> <span class="p">(</span><span class="n">point</span> <span class="p">-</span> <span class="n">v1</span><span class="p">)</span> <span class="err">的叉积</span>
+</span></span><span class="line"><span class="cl">        <span class="n">cross_product</span> <span class="p">=</span> <span class="p">(</span><span class="n">v2</span><span class="p">.</span><span class="n">x</span> <span class="p">-</span> <span class="n">v1</span><span class="p">.</span><span class="n">x</span><span class="p">)</span> <span class="p">*</span> <span class="p">(</span><span class="n">point</span><span class="p">.</span><span class="n">y</span> <span class="p">-</span> <span class="n">v1</span><span class="p">.</span><span class="n">y</span><span class="p">)</span> <span class="p">-</span> <span class="p">(</span><span class="n">v2</span><span class="p">.</span><span class="n">y</span> <span class="p">-</span> <span class="n">v1</span><span class="p">.</span><span class="n">y</span><span class="p">)</span> <span class="p">*</span> <span class="p">(</span><span class="n">point</span><span class="p">.</span><span class="n">x</span> <span class="p">-</span> <span class="n">v1</span><span class="p">.</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="err">#</span> <span class="err">如果射线从下往上穿，需要</span><span class="n">cross</span><span class="p">&gt;</span><span class="m">0</span><span class="err">；从上往下穿，需要</span><span class="n">cross</span><span class="p">&lt;</span><span class="m">0</span><span class="err">。</span>
+</span></span><span class="line"><span class="cl">        <span class="err">#</span> <span class="err">但因为我们只关心是否同号，可以用一个巧妙的判断：</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">v1</span><span class="p">.</span><span class="n">y</span> <span class="p">&lt;</span> <span class="n">v2</span><span class="p">.</span><span class="n">y</span> <span class="n">and</span> <span class="n">cross_product</span> <span class="p">&lt;</span> <span class="m">0</span><span class="p">)</span> <span class="n">or</span> <span class="p">(</span><span class="n">v1</span><span class="p">.</span><span class="n">y</span> <span class="p">&gt;</span> <span class="n">v2</span><span class="p">.</span><span class="n">y</span> <span class="n">and</span> <span class="n">cross_product</span> <span class="p">&gt;</span> <span class="m">0</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">continue</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="err">#</span> <span class="err">如果以上</span><span class="n">continue都没触发</span><span class="err">，说明是一个有效交叉</span>
+</span></span><span class="line"><span class="cl">        <span class="n">count</span> <span class="p">+=</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">count</span> <span class="p">%</span> <span class="m">2</span> <span class="p">==</span> <span class="m">1</span> <span class="err">#</span> <span class="err">奇数次则在内部</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>Any set of 3 vectors (in 3D) that</li>
+</ul>
+$$
+\|\mathbf{u}\|=\|\mathbf{v}\|=\|\mathbf{w}\|\\ \mathbf{u}\cdot\mathbf{v}=\mathbf{v}\cdot\mathbf{w}=\mathbf{u}\cdot\mathbf{w}=0\\ \mathbf{w}=\mathbf{u}\times\mathbf{v}(right-handed)\\\mathbf{p}=(\mathbf{p} \cdot\mathbf{u})\mathbf{u}+(\mathbf{p} \cdot\mathbf{v})\mathbf{v}+(\mathbf{p} \cdot\mathbf{w})\mathbf{w}
+$$<h1 id="homogeneous-coordinates">Homogeneous Coordinates
+</h1><h2 id="2d-transformations">2D Transformations
+</h2><h3 id="scale">Scale
+</h3>$$
+S(s_x, s_y)=\begin{pmatrix}s_x & 0 & 0\\0 & s_y & 0 \\ 0 & 0 & 1 \end{pmatrix}
+$$<h3 id="rotation">Rotation
+</h3>$$
+R(\alpha)=\begin{pmatrix}cos\alpha & -sin\alpha & 0\\sin\alpha  & cos\alpha  & 0 \\ 0 & 0 & 1 \end{pmatrix}
+$$<h3 id="translation">Translation
+</h3>$$
+T(t_x,t_y)=\begin{pmatrix}1 & 0 & t_x\\ 0 & 1 & t_y \\ 0 & 0 & 1 \end{pmatrix}
+$$$$
+\begin{pmatrix}x'\\ y'\end{pmatrix}=\begin{pmatrix}x\\y\end{pmatrix} +\begin{pmatrix}t_x\\t_y\end{pmatrix}
+$$<h2 id="3d-transformations">3D Transformations
+</h2><h3 id="scale-1">Scale
+</h3>$$
+S(s_x, s_y, s_z)=\begin{pmatrix}s_x & 0 & 0 & 0 \\0 & s_y & 0  & 0\\ 0 & 0 & s_z & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}
+$$<h3 id="rotation-1">Rotation
+</h3>$$
+R_x(\alpha)=\begin{pmatrix}1 & 0 & 0 & 0\\0 &cos\alpha & -sin\alpha & 0\\0 & sin\alpha  & cos\alpha  & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}
+$$$$
+R_y(\alpha)=\begin{pmatrix}cos\alpha & 0 & sin\alpha & 0\\0 & 1 & 0 & 0\\-sin\alpha & 0 & cos\alpha  & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}
+$$$$
+R_z(\alpha)=\begin{pmatrix}cos\alpha & -sin\alpha & 0 & 0\\sin\alpha &cos\alpha & 0 & 0\\0 & 0  & 1 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}
+$$<h3 id="translation-1">Translation
+</h3>$$
+T(t_x,t_y,t_z)=\begin{pmatrix}1 & 0 & 0 & t_x\\ 0 & 1 & 0& t_y \\ 0 & 0 & 1 & t_z \\ 0 & 0 & 0 & 1\end{pmatrix}
+$$<ul>
+<li>point $(x,y,z,1)^T$</li>
+<li>vector $(x,y,z,0)^T$</li>
+<li>point + point = 中点</li>
+<li>point - point = vector</li>
+<li>point +/- vector = point</li>
+<li>vector +/- vector = vector</li>
+</ul>
+<h3 id="rodrigues-rotation-formula">Rodrigues’ Rotation Formula
+</h3><ul>
+<li>一个向量v绕任意方向单位向量k为轴旋转公式:</li>
+</ul>
+$$
+\mathbf{v_{rotated}} = \mathbf{v_{\|}} + \mathbf{v_{\perp}}cos\theta + \mathbf{v}\times\mathbf{k}sin\theta
+\\
+\mathbf{v_\|} = (\mathbf{v}\cdot\mathbf{k})\mathbf{k}
+\\
+\mathbf{v_\perp}=\mathbf{v-v_\|} = \mathbf{v-(v\cdot k) k}
+\\
+\mathbf{v_{rotated}}=\mathbf{(1-cos\theta)(v\cdot k)k + vcos\theta + v\times k sin\theta}
+$$<h3 id="viewing-transformation-把空间的东西观测到-113内">Viewing transformation (把空间的东西观测到[-1,1]^3内)
+</h3><ul>
+<li><strong>View / Camera transformation (M(Model)V(View)P(Projection))</strong>
+<ul>
+<li>Define the camera first
+<ul>
+<li>Position</li>
+<li>Look-at / gaze direction</li>
+<li>up direction</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+$$
+\mathbf{M_{view} = R_{view}T_{view}}\\
+\mathbf{T_{view}=\begin{pmatrix}1 & 0 & 0 & x_e\\ 0 & 1 & 0& y_e \\ 0 & 0 & 1 & z_e \\ 0 & 0 & 0 & 1\end{pmatrix}}\\
+\mathbf{R^{-1}_{view}=\begin{pmatrix}x_{g\times t} & x_t & x_{-g} & 0\\ y_{g\times t} & y_t & y_{-g}& 0 \\ z_{g\times t} & z_t & z_{-g} & 0 \\ 0 & 0 & 0 & 1\end{pmatrix}->R_{view}\begin{pmatrix}x_{g\times t} & y_{g\times t} & z_{g\times t} & 0\\ x_t & y_t & z_t & 0 \\ x_{-g} & y_{-g} & z_{-g} & 0 \\ 0 & 0 & 0 & 1\end{pmatrix}}
+$$<ul>
+<li>
+<p>Projection transformation</p>
+<ul>
+<li>
+<p>Orthographic projection</p>
+$$
+        \mathbf{M_{ortho}=\begin{pmatrix}\frac{2}{r-l} & 0 & 0 & 0\\
+        0 & \frac{2}{t-b} & 0 & 0 \\
+        0 & 0 & \frac{2}{n-f} & 0\\
+        0 & 0 & 0 & 1\end{pmatrix}}  \mathbf{\begin{pmatrix}1 & 0 & 0 & -\frac{r+l}{2}\\
+        0 & 1 & 0 & -\frac{t+b}{2}\\
+        0 & 0 & 1 & -\frac{n+f}{2}\\
+        0 & 0 & 0 & 1\end{pmatrix}}=\mathbf{\begin{pmatrix}\frac{2}{r-l} & 0 & 0 & -\frac{r+l}{r-l}\\
+        0 & \frac{2}{t-b} & 0 & -\frac{t+b}{t-b}\\
+        0 & 0 & \frac{2}{n-f} & -\frac{n+f}{n-f}\\
+        0 & 0 & 0 & 1\end{pmatrix}}
+        $$</li>
+<li>
+<p>Perspective projection</p>
+$$
+        \mathbf{M_{persp}=M_{ortho}M_{persp->ortho}}\\
+        \mathbf{M_{persp->ortho}=\begin{pmatrix}n &0 &0&0\\
+        0&n&0&0\\
+        0 &0 & n+f & -nf\\
+        0 & 0 & 1 & 0\end{pmatrix}}\\
+        \mathbf{M_{persp}=\begin{pmatrix}\frac{2n}{r-l}&0 &-\frac{r+l}{r-l}&0\\
+        0&\frac{2n}{t-b}&-\frac{t+b}{t-b}&0\\
+        0 & 0 & \frac{n+f}{n-f} & \frac{-2nf}{n-f}\\
+        0 & 0 & 1 & 0\end{pmatrix}}
+        $$</li>
+<li>
+<p>考虑r=-l, t=-b时则有</p>
+</li>
+</ul>
+$$
+    \mathbf{M_{persp}=\begin{pmatrix}\frac{n}{r}&0&0&0\\
+    0&\frac{n}{t}&0&0\\
+    0 & 0 & \frac{n+f}{n-f} & \frac{-2nf}{n-f}\\
+    0 & 0 & 1 & 0\end{pmatrix}}
+    $$</li>
+</ul>
+<h1 id="rasterization-光栅化">Rasterization (光栅化)
+</h1><ul>
+<li>将[-1,1]^3的东西显示到屏幕上</li>
+<li>field-of-view(fovY)(垂直角)</li>
+<li>aspect ratio( width/height )</li>
+<li>$tan\frac{fovY}{2}=\frac{2}{|n|}\
+aspect=\frac{r}{t}$</li>
+<li>Screen
+<ul>
+<li>An array of pixels</li>
+<li>Size of the array: resolution</li>
+<li>A typical kind of raster display</li>
+</ul>
+</li>
+<li>Raster == screen in German
+<ul>
+<li>Rasterize == drawing onto the screen</li>
+</ul>
+</li>
+<li>pixel (FYI, short for “picture element”)</li>
+<li>视口变换 [-1,1]^2 → [0,width] x [0,height]</li>
+</ul>
+$$
+\mathbf{M_{viewport}=\begin{pmatrix}\frac{width}{2} & 0 & 0 & \frac{width}{2}\\
+0 & \frac{height}{2} & 0 & \frac{height}{2}\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1\end{pmatrix}}
+$$<h2 id="antialiasing">AntiAliasing
+</h2><ul>
+<li>采样</li>
+<li>若是采样的信号过大 容易发生堆叠(走样/锯齿)</li>
+</ul>
+<p><img src="/p/cg/image.png"
+	width="1550"
+	height="639"
+	srcset="/p/cg/image_hu_f37660dd45b1b3b9.png 480w, /p/cg/image_hu_555ca981aeb18378.png 1024w"
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="242"
+		data-flex-basis="582px"
+	
+></p>
+<h3 id="reduce-aliasing-error">Reduce Aliasing Error
+</h3><ul>
+<li>
+<p>Option 1: Increase sampling rate</p>
+<ul>
+<li>Essentially increasing the distance between replicas in the Fourier domain</li>
+<li>Higher resolution displays, sensors, framebuffers…</li>
+<li>But: costly &amp; may need very high resolution</li>
+</ul>
+</li>
+<li>
+<p>Option 2: Antialiasing</p>
+<ul>
+<li>Making Fourier contents &ldquo;narrower&rdquo; before repeating</li>
+<li>i.e. Filtering out high frequencies before sampling</li>
+<li>低通滤波器(类似卷积核)</li>
+</ul>
+</li>
+<li>
+<p>MSAA (Multi-Sample Anti-Aliasing)</p>
+<ul>
+<li>Approximate the effect of the 1-pixel box filter by sampling multiple locations within a pixel and averaging their values:</li>
+</ul>
+<p><img src="/image%201.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Milestones(personal idea(Ling qin Ying))</p>
+<ul>
+<li>FXAA(Fast Approximate AA)</li>
+<li>TAA(Temporal AA)</li>
+</ul>
+</li>
+<li>
+<p>Super resolution / super sampling</p>
+<ul>
+<li>From low resolution to high resolution</li>
+<li>Essentially still &ldquo;not enough samples&rdquo; problem</li>
+<li>DLSS (Deep Learning Super Sampling)</li>
+</ul>
+</li>
+</ul>
+<h1 id="shading">Shading
+</h1><h2 id="visibility--occlusion">Visibility / occlusion
+</h2><h3 id="z-buffering">Z-buffering
+</h3><ul>
+<li>Painter’s Algorithm
+<ul>
+<li>Inspired by how painters paint</li>
+<li>Paint from back to front, overwrite in the framebuffer</li>
+<li>Requires sorting in depth (O(n log n) for n triangles)</li>
+<li>Can have unresolvable depth order</li>
+</ul>
+</li>
+<li>Z-Buffer
+<ul>
+<li>
+<p>this is the algorithm that eventually won.</p>
+</li>
+<li>
+<p>Idea:</p>
+<ul>
+<li>Store current min.z_value <strong>for each sample (pixel)</strong></li>
+<li>Needs an additional buffer for depth values
+<ul>
+<li>frame buffer stores color values</li>
+<li>depth buffer (z-buffer) stores depth</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>IMPORTANT: For simplicity we suppose z is always positive(smaller z → close, larger z → further)</strong></p>
+</li>
+<li>
+<p>Initialize depth buffer to $\infty$</p>
+</li>
+<li>
+<p>During rasterization:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="n">each</span> <span class="n">triangle</span> <span class="n">T</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="n">each</span> <span class="n">sample</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">z</span><span class="p">)</span> <span class="k">in</span> <span class="n">T</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">z</span> <span class="p">&lt;</span> <span class="n">zbuffer</span><span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">])</span>  <span class="c1">//closest sample so far</span>
+</span></span><span class="line"><span class="cl">            <span class="n">framebuffer</span><span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">]</span> <span class="p">=</span> <span class="n">rgb</span><span class="p">;</span>  <span class="c1">//update color</span>
+</span></span><span class="line"><span class="cl">            <span class="n">zbuffer</span><span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">]</span> <span class="p">=</span> <span class="n">z</span><span class="p">;</span>  <span class="c1">//update depth</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span>
+</span></span><span class="line"><span class="cl">            <span class="p">;</span> <span class="c1">//do nothing, this sample is occluded</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+</li>
+</ul>
+<h2 id="shading-1">Shading
+</h2><ul>
+<li>
+<p>光照分为</p>
+<ul>
+<li>高光</li>
+<li>漫反射</li>
+<li>环境光照</li>
+</ul>
+</li>
+<li>
+<p>Shading is Local</p>
+<ul>
+<li>Compute light reflected toward camera at specific shading point</li>
+<li>Inputs:
+<ul>
+<li>Viewer direction, v</li>
+<li>Surface normal, n</li>
+<li>Light direction, l (for each of many lights)</li>
+<li>Surface parameters (color, shininess, …)</li>
+</ul>
+</li>
+<li>着色只考虑 光源 摄像机 面的法向 不考虑其他物体的遮挡(所以不会生成阴影)</li>
+</ul>
+</li>
+<li>
+<p>Lambertian(Diffuse)Shading</p>
+<ul>
+<li>Shading <strong>independent</strong> of view direction</li>
+<li>$L_d$  - diffusely reflected light</li>
+<li>$k_d$ - diffuse coefficient (color)</li>
+<li>$I/r^2$ - energy arrived at the shading point</li>
+<li>$max(0, n\cdot l)$ - energy received by the shading point</li>
+</ul>
+$$
+    L_d = k_d(I/r^2) max(0,n\cdot l)
+    $$<ul>
+<li>Produces diffujse appearance (生成漫反射)</li>
+</ul>
+</li>
+<li>
+<p>Specular Term (Blinn-Phong)</p>
+<ul>
+<li>
+<p>Intensity <strong>depends</strong> on view direction</p>
+<ul>
+<li>Bright near mirror reflection direction</li>
+</ul>
+</li>
+<li>
+<p>V close to mirror direction ↔ <strong>half vector near normal</strong></p>
+</li>
+<li>
+<p>Measure “near” by dot product of unit vectors</p>
+</li>
+<li>
+<p>$\mathbf{h}$ - 半程向量</p>
+</li>
+<li>
+<p>$\mathbf{L_s}$ - specularly reflected light</p>
+</li>
+<li>
+<p>$\mathbf{k_s}$ - specular coeffient</p>
+</li>
+<li>
+<p>$p$ - narrows the refelection lobe</p>
+$$
+        \mathbf{h}=bisector(v,l)\\
+        =\frac{v+l}{\|v+l\|}\\
+        L_s = k_s(I/r^2)max(0,cos\alpha)^p\\
+        =k_s(I/r^2)max(0,n\cdot h)^p
+        $$</li>
+</ul>
+</li>
+<li>
+<p>Ambient Term (环境光)</p>
+<ul>
+<li>Shading that does not depend on anything
+<ul>
+<li>Add constant color to account for disregarded illumination and fill in black shadows</li>
+<li>This is approximate / fake!</li>
+</ul>
+</li>
+<li>$L_a$ - reflected ambient light</li>
+<li>$k_a$ - ambient coefficient</li>
+</ul>
+$$
+    L_a = k_aI_a
+    $$</li>
+<li>
+<p>Blinn-Phong Reflection Model</p>
+$$
+    L = L_a + L_d + L_s\\
+    = k_aI_a + k_d(I/r^2)max(0,\mathbf{n\cdot l})+k_s(I/r^2)max(0,n\cdot h)^p
+    $$</li>
+</ul>
+<h3 id="illumination--shading">Illumination &amp; Shading
+</h3><ul>
+<li>
+<p>Shading Frequencies</p>
+<ul>
+<li><strong>Shade each triangle (flat shading)</strong>
+<ul>
+<li>Triangle face is flat — one normal vector</li>
+<li>Not good for smooth surfaces</li>
+</ul>
+</li>
+<li><strong>Shade each vertex (Gouraud shading)</strong>
+<ul>
+<li>Interpolate colors from vertices across triangle</li>
+<li>Each vertex has a normal vector (how?)</li>
+<li>Defining Per-Vertex Normal Vectors
+<ul>
+<li>
+<p>Best to get vertex normals from the underlying geometry</p>
+<ul>
+<li>e.g. consider a sphere</li>
+</ul>
+</li>
+<li>
+<p>Otherwise have to infer vertex normals from triangle faces</p>
+<ul>
+<li>Simple scheme: <strong>average surrounding face normals</strong></li>
+</ul>
+$$
+                N_v = \frac{\sum_iN_i}{\|sum_iN_i\|}
+                $$</li>
+<li>
+<p>Barycentric interpolation (introducing soon) of vertex normals</p>
+</li>
+<li>
+<p>Don’t forget to <strong>normalize</strong> the interpolated directions</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Shade each pixel (Phong shading)</strong>
+<ul>
+<li>Interpolate normal vectors across each triangle</li>
+<li>Compute full shading model at each pixel</li>
+<li>Not the <strong>Blinn-Phong Reflectance Model</strong></li>
+</ul>
+</li>
+</ul>
+<p><img src="/image%202.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+<h3 id="graphics-real-time-rendering-pipeline">Graphics (Real-time Rendering) Pipeline
+</h3><p><img src="/image%203.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>
+<p>Shader Programs</p>
+<ul>
+<li>Program vertex and fragment processing stages</li>
+<li>Describe operation on a single vertex (or fragment)</li>
+<li>Example GLSL fragment shader program</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-glsl" data-lang="glsl"><span class="line"><span class="cl"><span class="k">uniform</span> <span class="k">sampler2D</span> <span class="n">myTexture</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">uniform</span> <span class="k">vec3</span> <span class="n">lightDir</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">varying</span> <span class="k">vec2</span> <span class="n">uv</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">varying</span> <span class="k">vec3</span> <span class="n">norm</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">void</span> <span class="n">diffuseShader</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">vec3</span> <span class="n">kd</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">kd</span> <span class="o">=</span> <span class="n">texture2d</span><span class="p">(</span><span class="n">myTexture</span><span class="p">,</span> <span class="n">uv</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">kd</span> <span class="o">*=</span> <span class="n">clamp</span><span class="p">(</span><span class="n">dot</span><span class="p">(</span><span class="o">-</span><span class="n">lightDir</span><span class="p">,</span> <span class="n">norm</span><span class="p">),</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">gl_FragColor</span> <span class="o">=</span> <span class="k">vec4</span><span class="p">(</span><span class="n">kd</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>Shader function executes once per fragment</li>
+<li>Outputs color of surface at the current fragment’s screen sample position</li>
+<li>This shader performs a texture lookup to obtain the surface’s material color at this point, then performs a diffuse light calculation</li>
+</ul>
+</li>
+<li>
+<p>Graphics Pipeline Implementation: GPUs</p>
+<ul>
+<li>Specialized processors for executing graphics pipeline computations</li>
+</ul>
+</li>
+</ul>
+<h3 id="texture-mapping">Texture Mapping
+</h3><ul>
+<li>
+<p>Different Colors at Different Places</p>
+</li>
+<li>
+<p>Surfaces are 2D</p>
+<ul>
+<li>Surface lives in 3D world space</li>
+<li>Every 3D surface point also has a place where it goes in the 2D image (texture)</li>
+</ul>
+</li>
+<li>
+<p>Visualizetion of Texture Coordinates</p>
+<ul>
+<li>Eachtriangle vertex is assigned a texure coordinate (u,v)</li>
+</ul>
+</li>
+<li>
+<p>Textures can be used multiple times!</p>
+<ul>
+<li>example textures (used/tiled) (四方连续图) — 纹理之间接续起来没有突变的感觉</li>
+</ul>
+</li>
+<li>
+<p>Interpolation Across Triangles</p>
+<ul>
+<li>Specify values <strong>at vertices</strong></li>
+<li>Obtain smoothly varying values <strong>across triangles</strong></li>
+<li>To interpolate
+<ul>
+<li>Texture coordinates</li>
+<li>colors</li>
+<li>normal vectors</li>
+<li>…</li>
+</ul>
+</li>
+<li>How interpolate
+<ul>
+<li><strong>Barycentric coordinates</strong> (重心坐标)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Barycentric Coordinates</strong></p>
+<ul>
+<li>Acoordinate system for triangles ( $\alpha,\beta,\gamma$)</li>
+</ul>
+$$
+    (x,y) = \alpha A + \beta B + \gamma C\\
+    \alpha + \beta + \gamma + 1
+    $$<ul>
+<li><strong>points inside the triangles if all three coordinates are non-negative (3个系数都为正)</strong></li>
+</ul>
+$$
+    \alpha = \frac{A_A}{A_A+A_B+A_C}\\
+    \beta = \frac{A_B}{A_A+A_B+A_C}\\
+    \gamma = \frac{A_C}{A_A+A_B+A_C}
+    $$<p><img src="/image%204.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+$$
+    P(x,y) ~A(x_A,y_A)~B(x_B,y_B)~C(x_C,y_C)\\
+    \alpha = \frac{-(x-x_B)(y_C-y_B)+(y-y_B)(x_C - x_B)}{-(x_A-x_B)(y_C-y_B)+(y_A -y_B)(x_C-x_B)}\\
+    \beta = \frac{-(x-x_C)(y_A-y_C)+(y-y_C)(x_A - x_C)}{-(x_B-x_C)(y_A-y_C)+(y_B -y_C)(x_A-x_C)}\\
+    \gamma = 1-\alpha-\beta
+    $$$$
+    V=\alpha V_A + \beta V_B + \gamma V_C
+    $$<ul>
+<li>$V_A,V_B,V_C$ can be positions, texture coordinates, color, normal, depth, material attributes…</li>
+<li><strong>However, barycentric coordinates are not invariant under projection!</strong></li>
+</ul>
+</li>
+<li>
+<p>Simple Texture Mapping : Diffuse Color</p>
+<ul>
+<li>for each rasterized screen sample (x,y): <strong>Usually a pixel’s center</strong>
+<ul>
+<li>(u,v) = evaluate texture coordinate at (x, y): Using barycentric coordinates!</li>
+<li>texcolor = <strong>texture.sample(u,v)</strong></li>
+<li>set sample’s color to texcolor: <strong>Usually the diffuse albedo Kd(recall the Blinn-Phong reflectance model)</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Texture Magnification (What if the texture is too small?) (Eazy case)</p>
+<ul>
+<li>
+<p>Generally don’t want this — insufficient texture resolution</p>
+</li>
+<li>
+<p>A pixel on a texture — a texel(纹理元素, 纹素)</p>
+<ul>
+<li><strong>Bilinear Interpolation (双线性插值)</strong></li>
+</ul>
+<p><img src="/image%205.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Bicubic Interpolation (双三次插值) (取16个)</strong></p>
+</li>
+<li>
+<p>Texture Magnification (What if the texture is too large?) <strong>(Hard Case)</strong></p>
+<p><img src="/image%206.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>超采样可以有效反走样
+<ul>
+<li>High quality, but costly</li>
+<li>When highly minified, many texels in pixel footprint</li>
+<li>Signal frequency too large in a pixel</li>
+<li>Need even higher sampling frequency</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Let’s understand this problem in another way</p>
+<ul>
+<li>What if we don’t sample?</li>
+<li>Just need to get the average value within a range!</li>
+<li>Point Query vs. (Avg.) Range Query</li>
+<li>Different Pixels → Different-Sized Footprints</li>
+</ul>
+</li>
+<li>
+<p>Mipmap (近似效果 对方形效果较好(因此下方引入各向异性))</p>
+<ul>
+<li>Allowing (fast, approx., square) range queries</li>
+<li>“Mip” comes from the Latin “multum in parvo”, meaning a multitude in a small space</li>
+<li>Computing Mipmap Level D</li>
+<li>主要意思概述:
+<ul>
+<li>首先通过一些手段计算出L(一个像素映射到uv上相当于几个uv的纹素长的正方形)</li>
+<li>然后通过 $D=log_2L$可以计算出该像素相当于在第D层的mipmap下的一个纹素</li>
+<li>而mipmap是我们本身计算出来的平均好的纹理</li>
+<li>所以相当于用空间换时间 省去了我们去计算范围平均出来的纹素</li>
+<li>补充:
+<ul>
+<li>由于mipmap 每次是边长减少一半 所以面积减少3/4,所以总空间消耗为首项为1 公比为1/4的等比数列求和 收敛于4/3, 因此消耗空间只比原纹理图多了1/3 而优化了时间  (很赚)</li>
+<li>若D不为整数值怎么办 插值 (比如floor(D)层和(floor(D)+1)层进行线性插值)</li>
+<li>3线性插值 Trilinear Interpolation (2次查询 1次插值)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="/image%207.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>Mipmap Limitations 缺陷
+<ul>
+<li>远景容易Overblur(糊掉)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Anisotropic Filtering (各向异性过滤) (Better than Mipmap!) (也可以查询矩形 不局限于方形 但仍有缺陷 不能查询平行四边形) (是额外3倍空间消耗 (1+1/2+1/4+…)^2)</p>
+<ul>
+<li>Ripmaps and summed area tables
+<ul>
+<li>Can look up <strong>axis-aligned rectangular zones</strong></li>
+<li>Diagonal footprints still a problem</li>
+</ul>
+</li>
+</ul>
+<p><img src="/image%208.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>EWA filtering(多次查询 消耗性能 但是效果更好 更具有普适性)</p>
+<ul>
+<li>Use multiple lookups</li>
+<li>Weighted average</li>
+<li>Mipmap hierarchy still helps</li>
+<li>Can handle irregular footprints</li>
+</ul>
+</li>
+</ul>
+<h2 id="application-of-texture">Application of Texture
+</h2><ul>
+<li>
+<p>Advanced Texturing Methods</p>
+</li>
+<li>
+<p>Many, Many Uses for Texturing</p>
+<ul>
+<li>In modern GPUs, texture = memory + range query (filtering)
+<ul>
+<li>General method to bring data to fragment calculations</li>
+</ul>
+</li>
+<li>Many applications
+<ul>
+<li>Environment lighting</li>
+<li>Store microgeometry</li>
+<li>Procedural textures</li>
+<li>Solid modeling</li>
+<li>Volume rendering</li>
+<li>…</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Environment Map</p>
+</li>
+<li>
+<p>Spherical Environment Map</p>
+</li>
+<li>
+<p>Textures can affect shading</p>
+<ul>
+<li>
+<p>Textures doesn’t have to only represent colors</p>
+<ul>
+<li>What if it stores the height / normal?</li>
+<li>Bump / normal mapping</li>
+<li><strong>Fake</strong> the detailed geometry</li>
+</ul>
+</li>
+<li>
+<p><strong>Bump Mapping</strong></p>
+<ul>
+<li>Adding surface detail without adding more triangles</li>
+<li>Perturb surface normal per pixel (for shading computations only)</li>
+<li>“Height shift” per texel defined by a texture</li>
+<li>How to modify normal vector?</li>
+<li>How to perturb the normal (in flatland)</li>
+</ul>
+<p><img src="/image%209.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>How to perturb the normal (in 3D)</li>
+</ul>
+<p><img src="/image%2010.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Textures can affect shading!</strong></p>
+<ul>
+<li><strong>Displacement mapping</strong> — a more advanced approach
+<ul>
+<li>Uses the same texture as in bumping mapping</li>
+<li>Actually <strong>moves the vertices</strong></li>
+</ul>
+</li>
+<li><strong>3D Procedural Noise + Solid Modeling</strong></li>
+<li><strong>Provide Precomputed Shading</strong> (环境光遮挡) (提前写入计算好的环境光遮蔽的纹理)(烘焙?)</li>
+<li><strong>3D Textures and Volume Rendering</strong></li>
+</ul>
+</li>
+</ul>
+<h1 id="geometry">Geometry
+</h1><h3 id="many-ways-to-represent-geometry">Many Ways to Represent Geometry
+</h3><ul>
+<li><strong>Implicit</strong>
+<ul>
+<li>algebraic surface</li>
+<li>level sets</li>
+<li>distance functions</li>
+<li>…</li>
+</ul>
+</li>
+<li><strong>Explicit</strong>
+<ul>
+<li>point cloud</li>
+<li>polygon mesh</li>
+<li>subdivision, NURBS</li>
+<li>…</li>
+</ul>
+</li>
+<li>Each choice best suited to a different task/type of geometry</li>
+<li>“Implicit” Representations of Geometry
+<ul>
+<li>Based on classifying points
+<ul>
+<li>Points satisfy some specified relationship</li>
+</ul>
+</li>
+<li>E.g. sphere: all points in 3D, where $x^2+y^2+z^2=1$</li>
+<li>More generally, $f(x,y,z)=0$</li>
+<li>All points are given directly or via parameter mapping</li>
+<li>Generally: $f:R^2$→ $R^3;(u,v)$→ $(x,y,z)$</li>
+</ul>
+</li>
+<li>Explicit Surface — Sampling Is Easy</li>
+</ul>
+<p><img src="/image%2011.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>
+<p>Explicit Surface — Inside/Outside Test Hard</p>
+</li>
+<li>
+<p>No “Best” Representation — Geometry is Hard</p>
+</li>
+<li>
+<p>Constructive Solid Geometry (Implicit)</p>
+<ul>
+<li>Combine implicit geometry via Boolean operations</li>
+</ul>
+</li>
+<li>
+<p><strong>Distance Functions (Implicit) (SDF) (Signed Distance Field) 有向距离场</strong></p>
+<ul>
+<li>Instead of Booleans, gradually <strong>blend surface</strong> together use <strong>Distance functions:</strong></li>
+<li>giving minimum distance (could be <strong>signed</strong> distance)</li>
+<li>from any where to object</li>
+<li>An Example: Blending a moving boundary</li>
+<li>Bonus: 2D
+<ul>
+<li>一个图像
+<ul>
+<li>内部 sdf值为负数 (随距离变小 更负)</li>
+<li>边缘 sdf值为0</li>
+<li>外部 sdf值为正数 (随距离变大)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Level Set Methods (Also implicit) (类似等高线)</strong></p>
+<ul>
+<li>Closed-form equations are hard to describe complex shapes</li>
+<li>Alternative: store a grid of values approximating function</li>
+</ul>
+<p><img src="/image%2012.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>Surface is found where interpolated values equal zero</li>
+<li>Provides much more explicit control over shape(like a texture)</li>
+</ul>
+</li>
+<li>
+<p><strong>Fractals (Implicit)</strong></p>
+<ul>
+<li>Exhibit self-similarity, detail at all scales</li>
+<li>“Language” for describing natural phenomena</li>
+<li>Hard to control shape!</li>
+</ul>
+</li>
+<li>
+<p><strong>Implicit Representations - Pros &amp; Cons</strong></p>
+</li>
+<li>
+<p>Pros:</p>
+<ul>
+<li>compact description (e.g., a function)</li>
+<li>certain queries easy (inside object, distance to surface)</li>
+<li>good for ray-to-surface intersection(more later)</li>
+<li>for simple shapes, exact description / no sampling error</li>
+<li>easy to handle changes in topology(e.g., fluid)</li>
+</ul>
+</li>
+<li>
+<p>Cons:</p>
+<ul>
+<li>difficult to model complex shapes</li>
+</ul>
+</li>
+<li>
+<p><strong>Explicit Representations</strong></p>
+<ul>
+<li>Point Cloud (Explicit)
+<ul>
+<li>Easiest representation : list of points(x,y,z)</li>
+<li>Easily represent any kind of geometry</li>
+<li>Useful for LARGE datasets(&raquo;1 point/pixel)</li>
+<li>Often converted into polygon mesh</li>
+<li>Difficult to draw in undersampled regions</li>
+</ul>
+</li>
+<li>Polygon Mesh (Explicit)
+<ul>
+<li>Store vertices &amp; polygons (often triangles or quads)</li>
+<li>Easier to do processing / simulation, adaptative sampling</li>
+<li>More complicated data structures</li>
+<li>Perhaps most common representation in graphics</li>
+</ul>
+</li>
+<li>The Wavefront Object File （.obj) Format
+<ul>
+<li>Commonly used in Graphics research</li>
+<li>Just a text file that specifies vertices, normals, texture coordinates <strong>and their connectivities</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="curves">Curves
+</h2><h3 id="bezier-curves-贝塞尔曲线">Bezier curves (贝塞尔曲线)
+</h3><ul>
+<li><strong>Defining Cubic Bezier Curve With Tangents</strong></li>
+</ul>
+<h3 id="de-casteljaus-algorithm-evaluating-bezier-curves">De Casteljau’s algorithm (Evaluating Bezier Curves)
+</h3><p><img src="/image%2013.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%2014.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%2015.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>
+<p>General Algebraic Formula</p>
+</li>
+<li>
+<p>Bernstein form of a Bezier curve of order n:</p>
+$$
+    b^n(t)=b^n_0(t)=\sum_{j=0}^nb_jB_j^n(t)
+    $$</li>
+<li>
+<p>$b^n(t)$ — Bezier curve order n(vector polynomial of degree n)</p>
+</li>
+<li>
+<p>$b_j$ — Bezier control points (vector in $R^N$)</p>
+</li>
+<li>
+<p>$B_j^n(t)$ — Bernstein polynomial (scalar polynomial of degree n)</p>
+</li>
+<li>
+<p>Bernstein polynomials:</p>
+</li>
+</ul>
+$$
+B_i^n(t) = \binom{n}{i}t^i(1-t)^{n-i}
+$$<ul>
+<li>
+<p>Properties of Bezier Curves</p>
+<ul>
+<li>Interpolates endpoints
+<ul>
+<li>For cubic Bezier: $b(0)=b_0;~~b(1)=b_3$</li>
+</ul>
+</li>
+<li>Tangent to end segments
+<ul>
+<li>Cubic case: $b&rsquo;(0) = 3(b_1-b_0);~~b&rsquo;(1)=3(b_3 - b_2)$</li>
+</ul>
+</li>
+<li>Affine transformation property
+<ul>
+<li>Transform curve by transforming control points</li>
+</ul>
+</li>
+<li>Convex hull property (凸包性质 曲线必然在几个点的凸包内)
+<ul>
+<li>Curve is within convex hull of control points</li>
+</ul>
+</li>
+</ul>
+<p><img src="/image%2016.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Piecewise Bezier Curves (逐段定义) (一般每4个控制点控制一条)</p>
+<ul>
+<li>Instead, chain many low-order Bezier curve</li>
+<li><strong>Piecewise cubic Bezier</strong> the most common technique</li>
+<li>Widely used (fonts, paths, illustrator, Keynote, …)</li>
+<li>Continuity
+<ul>
+<li>Two Bezier curves</li>
+<li>$a:[k,k+1]$→ $IR^N$</li>
+<li>$b:[k+1,k+2]$→ $IR^N$</li>
+<li>$C_0$continuity: $a_n=b_0$</li>
+<li>$C_1$continuity: $a_n=b_0=\frac{1}{2}(a_{n-1}+b_1)$ (中点)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="b-splines-etc">B-splines, etc.
+</h3><ul>
+<li><strong>Other types of splines</strong>
+<ul>
+<li><strong>Spline(样条)</strong>
+<ul>
+<li>a continuous curve constructed so as to pass through a given set of points and have a certain number of continuous derivatives.</li>
+<li>In short, a curve under control</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>B-splines (基样条)</strong>
+<ul>
+<li>Short for basis splines</li>
+<li>Require more information than Bezier curves</li>
+<li>Satisfy all important properties that Bezier curves have (i.e. superset)</li>
+</ul>
+</li>
+<li>Important Note
+<ul>
+<li>learn more / deeper about curve please watch <a class="link" href="https://www.bilibili.com/video/av66548502/?from=search&amp;seid=65256805876131485"  target="_blank" rel="noopener"
+    >https://www.bilibili.com/video/av66548502/?from=search&seid=65256805876131485</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="surfaces">Surfaces
+</h2><h3 id="bezier-surfaces">Bezier surfaces
+</h3><ul>
+<li>Extend Bezier curves to surfaces</li>
+</ul>
+<p><img src="/image%2017.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<h3 id="triangles--quads">Triangles &amp; quads
+</h3><ul>
+<li>Mesh subdivision
+<ul>
+<li>
+<p>Common subdivision rule for triangle meshes</p>
+</li>
+<li>
+<p>First, create more triangles (vertices)</p>
+</li>
+<li>
+<p>Second, tune their positions</p>
+</li>
+<li>
+<p>Loop Subdivision (Loop 是一个姓) <strong>(仅针对三角形面)</strong></p>
+<ul>
+<li>Split each triangle into four</li>
+<li>Assign new vertex position according to weights
+<ul>
+<li>
+<p>New / old vertices updated differently</p>
+<ul>
+<li>For new vertices: Update to</li>
+</ul>
+$$
+                \frac{3}{8}*(A+B) + \frac{1}{8}*(C+D)
+                $$<ul>
+<li>For old vertices: Update to</li>
+<li>n — vertex degree (点连接边的数量</li>
+<li>u — 3/16 if n ==3, 3/(8n) otherwise</li>
+</ul>
+$$
+                (1-n*u)* original\_position + u*neighbor\_position\_sum
+                $$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Catmull</strong>-Clark Subdivision (<strong>General Mesh</strong>) <strong>(普适性)</strong></p>
+<ul>
+<li>
+<p>Non-quad face (非四边面)</p>
+</li>
+<li>
+<p>Extraordinary vertex (极点) (degree≠4)</p>
+</li>
+<li>
+<p>Each subdivision step:</p>
+<ul>
+<li>Add vertex in each face</li>
+<li>Add midpoint on each edge</li>
+<li>Connect all new vertices</li>
+</ul>
+</li>
+<li>
+<p>Face point</p>
+$$
+            f=\frac{v_1+v_2+v_3+v_4}{4}
+            $$</li>
+<li>
+<p>Edge point</p>
+$$
+            e = \frac{v_1+v_2+f_1+f_2}{4}
+            $$</li>
+<li>
+<p>Vertex point</p>
+$$
+            v=\frac{f_1+f_2+f_3+f_4+2(m_1+m_2+m_3+m_4)+4p}{16}
+            $$</li>
+<li>
+<p>m — midpoint of edge</p>
+</li>
+<li>
+<p>p — old “vertex point”</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Mesh simplification (用于 <strong>Level of Detail</strong>)
+<ul>
+<li>Goal: reduce number of mesh elements while maintaining the overall shape</li>
+<li>Method to achieve
+<ul>
+<li>Collapsing An Edge (边坍缩)
+<ul>
+<li>Suppose we simplify a mesh using edge collapsing</li>
+<li><strong>Quadric Error Metrics (二次误差度量) (决策哪些边该塌)</strong>
+<ul>
+<li>How much geometric error is introduced by simplification?</li>
+<li>Not a good idea to perform local averaging of vertices</li>
+<li>Quadric error: new vertex should minimize its <strong>sum of square distance</strong> (L2 distance) to previously related triangle planes!</li>
+</ul>
+</li>
+<li>Simplification via Quadric Error (利用优先队列优化)
+<ul>
+<li>Iteratively collapse edges</li>
+<li>Which edges? Assign score with quadric error metric*
+<ul>
+<li>approximate distance to surface as sum of distances to planes containing triangles</li>
+<li>iteratively collapse edge <strong>with smallest score</strong></li>
+<li>greedy algorithm… great results!</li>
+<li>*(Garland &amp; Heckbert 1997)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Mesh regularization</li>
+</ul>
+<h1 id="raytracing">RayTracing
+</h1><h2 id="why-ray-tracing">Why Ray Tracing?
+</h2><ul>
+<li>Rasterization couldn’t handle <strong>global</strong> effects well
+<ul>
+<li>(Soft) shadows</li>
+<li>And especially when the light bounces <strong>more than once</strong></li>
+</ul>
+</li>
+<li>Ray tracing is accurate, but is very slow
+<ul>
+<li>Rasterization: real-time, ray tracing: offline</li>
+<li>~10K CPU core hours to render one frame in production</li>
+</ul>
+</li>
+</ul>
+<h2 id="basic-ray-tracing-algorithm">Basic Ray-Tracing Algorithm
+</h2><h3 id="light-rays">Light Rays
+</h3><ul>
+<li>Three ideas about light rays
+<ul>
+<li>Light rays do not “collide” with each other if they cross (though this is still wrong)
+<ul>
+<li>Light travels in straight lines (though this is wrong)</li>
+</ul>
+</li>
+<li>Light rays travel from the light sources to the eye (but the physics is invariant under path reversal - reciprocity)</li>
+<li>“And if you gaze long into an abyss, the abyss also gazes into you.” — Friedrich Wilhelm Nietzsche (translated)</li>
+</ul>
+</li>
+</ul>
+<h2 id="whitted-stylerecursive-ray-tracing">Whitted-Style(Recursive) Ray Tracing
+</h2><p><img src="/image%2018.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<h3 id="ray-surface-intersection">Ray-Surface Intersection
+</h3><ul>
+<li>
+<p>Ray Equation</p>
+<ul>
+<li>Ray is defined by its origin and a direction vector</li>
+</ul>
+<p><img src="/image%2019.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+$$
+    r(t) = o + td~~~0\leq t < \infty
+    $$<ul>
+<li>r — point along ray</li>
+<li>t — “time”</li>
+<li>o — origin</li>
+<li>d — (normalized)direction</li>
+</ul>
+</li>
+<li>
+<p>Ray Intersection With Sphere</p>
+<ul>
+<li>
+<p>Ray: $\mathbf{r}(t) = \mathbf{o} +t\mathbf{d}, 0\leq t &lt; \infty$</p>
+</li>
+<li>
+<p>Sphere: $\mathbf{p}: (\mathbf{p-c})^2 - R^2 = 0$</p>
+</li>
+<li></li>
+<li>
+<p><strong>What is an intersection?</strong></p>
+<ul>
+<li><strong>The intersection p must satisfy both ray equation and sphere equation</strong></li>
+</ul>
+</li>
+<li>
+<p>Solve for intersection:</p>
+<p>$(\mathbf{o}+t\mathbf{d}-\mathbf{c})^2-R^2=0$</p>
+<p><img src="/image%2020.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Ray Intersection With Implicit Surface</p>
+<ul>
+<li>Ray: $\mathbf{r}(t)=\mathbf{o}+t\mathbf{d}, ~ 0\leq t &lt; \infty$</li>
+<li>General implicit surface: $\mathbf{p}: f(\mathbf{p})=0$</li>
+<li>Substitute ray equation: $f(\mathbf{o}+t\mathbf{d})=0$</li>
+<li>Solve for <strong>real, positive</strong> roots</li>
+</ul>
+</li>
+<li>
+<p>Ray Intersection With Triangle Mesh</p>
+<ul>
+<li>iterate all triangles (slow)</li>
+<li>Triangle is in a plane
+<ul>
+<li>Ray-plane intersection</li>
+<li>Test if hit point is inside triangle</li>
+</ul>
+</li>
+<li>Plane Equation
+<ul>
+<li>Plane is defined by normal vector and apoint on plane</li>
+<li>$\mathbf{p}:(\mathbf{p-p&rsquo;})\cdot \mathbf{N}=0$     $ax+by+cz+d=0$</li>
+<li>$\mathbf{p}$ — points on plane</li>
+<li>$\mathbf{p}&rsquo;$ — one point on plane</li>
+<li>$\mathbf{N}$ — normal vector</li>
+<li>$t=\frac{\mathbf{(p&rsquo;-o)\cdot N}}{\mathbf{d\cdot N}}$    <strong>Check:</strong> $0\leq t &lt; \infty$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Moller Trumbore Algorithm</p>
+<ul>
+<li>A faster approach, giving barycentric coordinate directly</li>
+<li>Derivation in the discussion section!</li>
+</ul>
+<p><img src="/image%2021.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Ray Tracing - Performance Challenges</p>
+<ul>
+<li>Simple ray-scene intersection
+<ul>
+<li>Exhaustively test ray-intersection with every object</li>
+<li>Find the closest hit (with minimum t)</li>
+</ul>
+</li>
+<li>Problem:
+<ul>
+<li>Naive algorithm = #pixels × #objects (x #bounces)</li>
+<li>Very slow!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="ray-tracing---performance-challenges">Ray Tracing - Performance Challenges
+</h3><ul>
+<li>
+<p>Bounding Volumes (包围盒)</p>
+<ul>
+<li>Quick way to avoid intersections: bound complex object with a simple volume
+<ul>
+<li>Object is fully contained in the volume</li>
+<li>If it doesn&rsquo;t hit the volume, it doesn&rsquo;t hit the object</li>
+<li>So test BVol first, then test object if it hits</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Ray-Intersection With Box</p>
+<ul>
+<li>Understanding: <strong>box is the intersection of 3 pairs of slabs</strong></li>
+<li>Specifically:
+<ul>
+<li>We often use an <strong>Axis-Aligned Bounding Box (AABB)</strong> (轴对齐包围盒)</li>
+<li>i.e. any side of the BB is along either x,y, or z axis</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Ray Intersection with Axis-Aligned Box</p>
+<ul>
+<li>2D example; 3D is the same! Compute intersections with slabs and tack intersection of $t_{min}/t_{max}$ intervals</li>
+<li>Recall: a box (3D) = three pairs of infinitely large slabs
+<ul>
+<li>Key ideas
+<ul>
+<li>The ray enters the box <strong>only when</strong> it enters all pairs of slabs</li>
+<li>The ray enters the box <strong>as long as</strong> it exits any pair of slabs</li>
+</ul>
+</li>
+<li>For each pair, calculate the $t_{min}$ and $t_{max}$ (negative is fine)</li>
+<li>For the 3D box, $t_{enter}=max{t_{min}}, t_{exit}=min{t_{max}}$</li>
+<li>If $t_{enter} &lt; t_{exit}$, we know the ray <strong>stays a while</strong> in the box (so they must intersect!) (not done yet, see the next slide)</li>
+</ul>
+</li>
+<li><strong>However, ray is not a line</strong>
+<ul>
+<li>Should check whether t is negative for physical correctness!</li>
+</ul>
+</li>
+<li><strong>What if $t_{exit} &lt; 0$?</strong>
+<ul>
+<li>The box is ‘”behind” the ray — no intersection!</li>
+</ul>
+</li>
+<li><strong>What if $t_{exit} \geq 0$ and $t_{enter} &lt; 0$ ?</strong>
+<ul>
+<li>The ray’s origin is inside the box — have intersection!</li>
+</ul>
+</li>
+<li><strong>In summary, ray and AABB intersect iff(当且仅当)</strong>
+<ul>
+<li>$t_{enter} &lt; t_{exit} ~~~&amp;&amp;~~~ t_{exit} \geq 0$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Why Axis-Aligned</p>
+<p><img src="/image%2022.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+<h3 id="acceleration">Acceleration
+</h3><ul>
+<li><strong>Using AABBs to accelerate ray tracing</strong>
+<ul>
+<li>
+<p>Uniform grids</p>
+<ul>
+<li>Grid Resolution
+<ul>
+<li>#cells = C * #objs</li>
+<li>C is about equal to 27 in 3D</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Spatial partitions</p>
+<p><img src="/image%2023.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>
+<p>KD-Tree Pre-Processing</p>
+<p><img src="/image%2024.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>Internal nodes store
+<ul>
+<li>split axis: x-, y-, or z-axis</li>
+<li>split position: coordinate of split plane along axis</li>
+<li>children: pointers to child nodes</li>
+<li>No objects are stored in internal nodes</li>
+</ul>
+</li>
+<li>Leaf nodes store
+<ul>
+<li>list of objects</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Object Partitions &amp; Bounding Volume Hierarchy (BVH)</strong></p>
+<ul>
+<li>
+<p>Summary: Building BVHs</p>
+<ul>
+<li>Find bounding box</li>
+<li>Recursively split set of objects in two subsets</li>
+<li><strong>Recompute</strong> the bounding box of the subsets</li>
+<li>Stop when necessary</li>
+<li>Store objects in each leaf node</li>
+<li>How to subdivide a node?
+<ul>
+<li>Choose a dimension to split</li>
+<li>Heuristic #1: Always choose the longest axis in node</li>
+<li>Heuristic #2: Split node at location of <strong>median</strong> object(第 中位个数 物体)</li>
+</ul>
+</li>
+<li>Termination criteria
+<ul>
+<li>Heuristic: stop when node contains few elements (e.g. 5)</li>
+</ul>
+</li>
+<li>Data Structure for BVHs
+<ul>
+<li>Internal nodes store
+<ul>
+<li>Bounding box</li>
+<li>Children: pointers to child nodes</li>
+</ul>
+</li>
+<li>Leaf nodes store
+<ul>
+<li>Bouding box</li>
+<li>List of objects</li>
+</ul>
+</li>
+<li>Nodes represent subset of primitives in scene</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>BVH Traversal</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">Intersect</span> <span class="p">(</span><span class="n">Ray</span> <span class="n">ray</span><span class="p">,</span> <span class="n">BVH</span> <span class="n">node</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">ray</span> <span class="n">misses</span> <span class="n">node</span><span class="p">.</span><span class="n">bbox</span> <span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span> <span class="n">node</span> <span class="n">is</span> <span class="n">a</span> <span class="n">leaf</span> <span class="n">node</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">test</span> <span class="n">intersection</span> <span class="n">with</span> <span class="n">all</span> <span class="n">objs</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">closest</span> <span class="n">intersection</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">hit1</span> <span class="o">=</span> <span class="n">Intersect</span><span class="p">(</span><span class="n">ray</span><span class="p">,</span> <span class="n">node</span><span class="p">.</span><span class="n">child1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">hit2</span> <span class="o">=</span> <span class="n">Intersect</span><span class="p">(</span><span class="n">ray</span><span class="p">,</span> <span class="n">node</span><span class="p">.</span><span class="n">child2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">the</span> <span class="n">closer</span> <span class="n">of</span> <span class="n">hit1</span><span class="p">,</span> <span class="n">hit2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+</li>
+<li>
+<p>Spatial vs Object Partitions</p>
+<ul>
+<li>Spatial partition(e.g. KD-tree)
+<ul>
+<li>Partition space into non-overlapping regions</li>
+<li>An object can be contained in multiple regions</li>
+</ul>
+</li>
+<li>Object partition (e.g. BVH)
+<ul>
+<li>Partition set of objects into disjoint subsets</li>
+<li>Bounding boxes for each set may overlap in space</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="basic-radiometry-辐射度量学"><strong>Basic radiometry (辐射度量学)</strong>
+</h3><ul>
+<li>
+<p>Advertisement: new topics from now on, scarcely covered in other graphics courses</p>
+</li>
+<li>
+<p>Motivation</p>
+<ul>
+<li>Observation
+<ul>
+<li>In assignment 3, we implement the Blinn-Phong model</li>
+<li>Light intensity $I$ is 10, for example</li>
+<li>But 10 what?</li>
+<li>给出光的精确描述</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Introduce</p>
+<ul>
+<li>Measurement system and units for illumination</li>
+<li>Accurately measure the spatial properties of light
+<ul>
+<li>New terms:
+<ul>
+<li>Radiant flux — 辐/光通量 单位时间内通过的光总量</li>
+<li>intensity — 辐/光强</li>
+<li>irradiance — 辉度, 单位面积光通量, 瓦特/平方米</li>
+<li>radiance — 辐/光亮度</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Perform lighting calculations <strong>in a physically correct manner</strong></li>
+</ul>
+</li>
+<li>
+<p>Radiant Energy and Flux (Power)</p>
+<ul>
+<li>Definition: Radiant energy is the energy of electromagnetic radiation. It is measured in units of joules, and denoted by the symbol:</li>
+</ul>
+$$
+    Q[J= Joule]
+    $$<ul>
+<li>
+<p>Definition: Radiant flux (power) is the energy emitted, reflected, transmitted or received, per unit time.</p>
+$$
+        \Phi \equiv \frac{dQ}{dt}[W=Watt] [lm=lumen]^*
+        $$<ul>
+<li>Flux — #phontons flowing through a sensor in unit time</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Important Light Measurements of Interest</p>
+<p><img src="/image%2025.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>“Radiant Intensity”                    “Irradiance”                                 “Radiance”</li>
+</ul>
+</li>
+<li>
+<p>Radiant Intensity</p>
+<ul>
+<li>
+<p>Definition: The radiant (luminous) intensity is the power per unit <strong>solid angle (?)</strong>  <strong>(立体角)</strong> emitted by a point light source</p>
+$$
+            I(\omega) \equiv \frac{d\Phi}{d\omega}\\
+        [\frac{W}{sr}][\frac{lm}{sr}=cd=candela]
+        $$</li>
+<li>
+<p>The candela is one of the seven SI base units</p>
+</li>
+<li>
+<p>Angles and Solid Angles</p>
+<ul>
+<li>
+<p><strong>Angle: ratio of subtended arc length on circle to radius</strong></p>
+<ul>
+<li>$\theta = \frac{l}{r}$</li>
+<li><strong>Circle has 2 $\pi$ radians</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>Solid angle: ratio of subtended area on sphere to radius squared</strong></p>
+<ul>
+<li>$\Omega = \frac{A}{r^2}$</li>
+<li><strong>Sphere has 4 $\pi$ steradians</strong></li>
+</ul>
+</li>
+<li>
+<p>Diffrential Solid Angles</p>
+<p><img src="/image%2026.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>we will use $\omega$ as a direction vector (unit length)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Isotropic Point Source</p>
+$$
+        \Phi = \int_{S^2}Id\omega\\
+        = 4\pi I\\
+        I = \frac{\Phi}{4\pi}
+        $$</li>
+<li>
+<p>Modern LED Light (example)</p>
+<p><img src="/image%2027.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Irradiance</strong></p>
+<ul>
+<li>Definition: The irradiance is the power per (perpendicular/projected) unit area incident on a surface point.</li>
+</ul>
+$$
+    E(x) \equiv \frac{d\Phi(x)}{dA}\\
+    [\frac{W}{m^2}][\frac{lm}{m^2}=lux]
+    $$<ul>
+<li><strong>Lambert’s Cosine Law</strong>
+<ul>
+<li><strong>Irradiance</strong> at surface is proportional to cosine of angle between light direction and surface normal</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Radiance</strong></p>
+<ul>
+<li>Radiance is the fundamental field quantity that describes the distribution of light in an environment
+<ul>
+<li>Radiance is the quantity associated with a ray</li>
+<li>Rendering is all about computing radiance</li>
+</ul>
+</li>
+<li>Definition: The radiance (luminance) is the power emitted, reflected, transmitted or received by a surface, per unit solid angle, per projected unit area.</li>
+</ul>
+$$
+    L(p,\omega) \equiv \frac{d^2\Phi(p,\omega)}{d\omega dA cos\theta}\\
+    [\frac{W}{sr~m^2}][\frac{cd}{m^2}=\frac{lm}{sr~m^2}=nit]
+    $$<ul>
+<li>
+<p>Recall</p>
+<ul>
+<li>Irradiance: power per projected unit area</li>
+<li>Intensity: power per solid angle</li>
+</ul>
+</li>
+<li>
+<p>So</p>
+<ul>
+<li>Radiance: Irradiance per solid angle</li>
+<li>Radiance: Intensity per projected unit area</li>
+</ul>
+</li>
+<li>
+<p>Incident Radiance</p>
+<ul>
+<li>Incident radiance is the irradiance per unit solid angle arriving at the surface.</li>
+</ul>
+<p><img src="/image%2028.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>i.e. it is the light arriving at the surface along a given ray (point on surface and incident direction.</li>
+</ul>
+</li>
+<li>
+<p>Exiting Radiance</p>
+<ul>
+<li>Exiting surface radiance is the intensity per unit projected area leaving the surface.</li>
+</ul>
+<p><img src="/image%2029.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>e.g. for an area light it is the light emitted along a given ray (point on surface and exit direction).</li>
+</ul>
+</li>
+<li>
+<p>Irradiance vs. Radiance</p>
+<ul>
+<li>Irradiance: total power received by area dA</li>
+<li>Radiance: power received by area dA from “direction” $d\omega$</li>
+</ul>
+$$
+        dE(p,\omega)=L_i(p,\omega)cos\theta d\omega\\
+        E(p)=\int_{H^2}L_i(p,\omega)cos\theta d\omega
+        $$<p><img src="/image%2030.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="light-transport">Light transport
+</h3><ul>
+<li>
+<p><strong>Bidrectional Reflectance Distribution Fuction (BRDF)</strong></p>
+<ul>
+<li>
+<p>Reflection at a Point</p>
+<ul>
+<li>Radiance from direction $\omega_i$ turns into the power E that dA receives Then power E will become the radiance to any other direction $\omega_o$</li>
+</ul>
+<p><img src="/image%2031.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>BRDF</p>
+<ul>
+<li>The Bidirectional Reflectance Distribution Function (BRDF) represents how much light is reflected into each outgoing direction $\omega_r$ from each incoming direction</li>
+</ul>
+<p><img src="/image%2032.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>The Reflection Equation</p>
+<p><img src="/image%2033.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Challenge: Recursive Equation</p>
+<ul>
+<li>Reflected radiance depends on incoming radiance</li>
+</ul>
+<p><img src="/image%2034.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>But incoming radiance depends on reflected radiance (at another point in the scene)</li>
+</ul>
+</li>
+<li>
+<p>The Rendering Equation</p>
+<ul>
+<li>Re-write the reflection equation:</li>
+</ul>
+$$
+        L_r(p,\omega_r)=\int_{H^2}f_r(p,\omega_i\to\omega_r)L_i(p,\omega_i)cos\theta_id\omega_i
+        $$<ul>
+<li>by adding an Emission term to make it general!</li>
+<li>The Rendering Equation</li>
+</ul>
+$$
+        L_o(p,\omega_o) = L_e(p,\omega_o) + \int_{\Omega^+}L_i(p,\omega_i)f_r(p,\omega_i,\omega_o)(n\cdot \omega_i)d\omega_i
+        $$<ul>
+<li>Note : now, we assume that all directions are pointing <strong>outwards</strong>!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>点光源</p>
+<p><img src="/image%2035.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>多个点光源</p>
+<p><img src="/image%2036.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>面光源</p>
+<p><img src="/image%2037.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>考虑间接光源</p>
+<p><img src="/image%2038.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+<h3 id="global-illumination">Global illumination
+</h3><ul>
+<li>
+<p>Rendering Equation as Integral Equation</p>
+<p><img src="/image%2039.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>引入全局光照</p>
+<p><img src="/image%2040.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+<h3 id="probability-review">Probability review
+</h3><p>$E[Y]=E[f(X)]=\int f(x)p(x)dx$</p>
+<h3 id="a-brief-review">A Brief Review
+</h3><ul>
+<li>the rendering equation</li>
+</ul>
+<h3 id="monte-carlo-integration">Monte Carlo Integration
+</h3><ul>
+<li><strong>Why</strong>: we want to solve an integral, but it can be to difficult to solve analytically.</li>
+<li><strong>What &amp; How</strong>: estimate the integral of a function by averaging random samples of the function’s value.</li>
+</ul>
+$$
+\int_a^b f(x)dx
+$$<ul>
+<li>Let us define the Monte Carlo estimator for the definite integral of given function f(x)</li>
+<li>Definite integral   $\int_a^b f(x)dx$</li>
+<li>Random variable  $X_i \sim p(x)$</li>
+<li>Monte Carlo estimator $F_N = \frac{1}{N}\sum_{i=1}^N \frac{f(X_i)}{p(X_i)}$</li>
+</ul>
+<h3 id="path-tracing">Path Tracing
+</h3><ul>
+<li>
+<p>Motivation: Whitted-Style Ray Tracing</p>
+<ul>
+<li>
+<p>Whitted-style ray tracing:</p>
+<ul>
+<li>Always perform specular reflections / refractions</li>
+<li>Stop bouncing at diffuse surfaces</li>
+</ul>
+</li>
+<li>
+<p>Are these simplifications reasonable?</p>
+</li>
+<li>
+<p>High level: let’s progressively improve upon Whitted-Style Ray Tracing and lead to our path tracing algorithm!</p>
+</li>
+<li>
+<p><strong>Whitted-Style Ray Tracing : Problem 1</strong></p>
+<p><img src="/image%2041.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p><strong>Whitted-Style Ray Tracing : Problem 2</strong></p>
+<p><img src="/image%2042.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Whitted-Style Ray Tracing is Wrong</p>
+<ul>
+<li>But the rendering equation is correct</li>
+</ul>
+$$
+        L_o(p,\omega_o) = L_e(p,\omega_o)+\int_{\Omega^+}L_i(p,\omega_i)f_r(p,\omega_i,\omega_o)(n\cdot \omega_i)d\omega_i
+        $$<ul>
+<li>But it involves
+<ul>
+<li>Solving an integral over the hemisphere, and</li>
+<li>Recursive execution</li>
+</ul>
+</li>
+<li>How to solve an integral numerically? (Monte Carlo Integral)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>A Simple Monte Carlo Solution</p>
+<ul>
+<li>Suppose we want to render one pixel (point) in the following scene for direct illumination only</li>
+<li>Abuse the concept of Reflection Equation a little bit</li>
+<li>we assume all directions are pointing outwards</li>
+</ul>
+<p><img src="/image%2043.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>So in general</li>
+<li>A correct shading algorithm for direct illumination!</li>
+</ul>
+$$
+    L_o(p,\omega_o) = \int_{\Omega^+} L_i(p,\omega_i)f_r(p,\omega_i,\omega_o)(n\cdot \omega_i)d\omega_i\\
+    \approx \frac{1}{N}\sum_{i=1}^N\frac{L_i(p,\omega_i)f_r(p,\omega_i,\omega_o)(n\cdot \omega_i)}{p(\omega_i)}
+    $$<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">shade</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">wo</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Randomly</span> <span class="n">choose</span> <span class="n">N</span> <span class="n">directions</span> <span class="n">wi</span><span class="o">~</span><span class="n">pdf</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Lo</span> <span class="o">=</span> <span class="mf">0.0</span>
+</span></span><span class="line"><span class="cl">    <span class="n">For</span> <span class="n">each</span> <span class="n">wi</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Trace</span> <span class="n">a</span> <span class="n">ray</span> <span class="n">r</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">wi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">If</span> <span class="n">ray</span> <span class="n">r</span> <span class="n">hit</span> <span class="n">the</span> <span class="n">light</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Lo</span> <span class="o">+=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="n">N</span><span class="p">)</span> <span class="o">*</span> <span class="n">L_i</span> <span class="o">*</span> <span class="n">f_r</span> <span class="o">*</span> <span class="n">cosine</span> <span class="o">/</span> <span class="n">pdf</span><span class="p">(</span><span class="n">wi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Return</span> <span class="n">Lo</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Introducing Global Illumination</p>
+<ul>
+<li>One more step forward: what if a ray hits an object?</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="c1">// p - 接受点
+</span></span></span><span class="line"><span class="cl"><span class="c1">// wo - 出射方向 (radiance)
+</span></span></span><span class="line"><span class="cl"><span class="c1">// L_i - 入射光 (radiance)
+</span></span></span><span class="line"><span class="cl"><span class="c1">// fr - BRDF 将接收的光射到出射方向的函数(大概是个特殊的系数?)
+</span></span></span><span class="line"><span class="cl"><span class="c1">// pdf(wi) - wi(射向接受点的光线(radiance))在半球上的概率分布
+</span></span></span><span class="line"><span class="cl"><span class="c1">// cosine - max(0, cosine) 只考虑半球的正半面 其它地方为0
+</span></span></span><span class="line"><span class="cl"><span class="n">shade</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">wo</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Randomly</span> <span class="n">choose</span> <span class="n">N</span> <span class="n">directions</span> <span class="n">wi</span><span class="o">~</span><span class="n">pdf</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Lo</span> <span class="o">=</span> <span class="mf">0.0</span>
+</span></span><span class="line"><span class="cl">    <span class="n">For</span> <span class="n">each</span> <span class="n">wi</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Trace</span> <span class="n">a</span> <span class="n">ray</span> <span class="n">r</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">wi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">If</span> <span class="n">ray</span> <span class="n">r</span> <span class="n">hit</span> <span class="n">the</span> <span class="n">light</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Lo</span> <span class="o">+=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="n">N</span><span class="p">)</span> <span class="o">*</span> <span class="n">L_i</span> <span class="o">*</span> <span class="n">f_r</span> <span class="o">*</span> <span class="n">cosine</span> <span class="o">/</span> <span class="n">pdf</span><span class="p">(</span><span class="n">wi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Else</span> <span class="k">if</span> <span class="n">ray</span> <span class="n">r</span> <span class="n">hit</span> <span class="n">an</span> <span class="n">object</span> <span class="n">at</span> <span class="n">q</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Lo</span> <span class="o">+=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="n">N</span><span class="p">)</span> <span class="o">*</span> <span class="n">shade</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="o">-</span><span class="n">wi</span><span class="p">)</span> <span class="o">*</span> <span class="n">f_r</span> <span class="o">*</span> <span class="n">cosine</span> <span class="o">/</span> <span class="n">pdf</span><span class="p">(</span><span class="n">wi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Return</span> <span class="n">Lo</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>
+<p>防止指数爆炸(递归导致一直取样N个方向的光线)</p>
+</li>
+<li>
+<p>因此假设每个着色点只有一个光线被追踪</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">shade</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">wo</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Randomly</span> <span class="n">choose</span> <span class="n">ONE</span> <span class="n">directions</span> <span class="n">wi</span><span class="o">~</span><span class="n">pdf</span><span class="p">(</span><span class="n">w</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Trace</span> <span class="n">a</span> <span class="n">ray</span> <span class="n">r</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">wi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">If</span> <span class="n">ray</span> <span class="n">r</span> <span class="n">hit</span> <span class="n">the</span> <span class="n">light</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Return</span> <span class="n">L_i</span> <span class="o">*</span> <span class="n">f_r</span> <span class="o">*</span> <span class="n">cosine</span> <span class="o">/</span> <span class="n">pdf</span><span class="p">(</span><span class="n">wi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Else</span> <span class="k">if</span> <span class="n">ray</span> <span class="n">r</span> <span class="n">hit</span> <span class="n">an</span> <span class="n">object</span> <span class="n">at</span> <span class="n">q</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Return</span> <span class="n">shade</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="o">-</span><span class="n">wi</span><span class="p">)</span> <span class="o">*</span> <span class="n">f_r</span> <span class="o">*</span> <span class="n">cosine</span> <span class="o">/</span> <span class="n">pdf</span><span class="p">(</span><span class="n">wi</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>N = 1, So We called it <strong>path tracing</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Ray Generation</p>
+<ul>
+<li>But this will be noisy!</li>
+<li>No problem, just trace more <strong>paths</strong> through each pixel and average their radiance!</li>
+</ul>
+<p><img src="/image%2044.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>Very Similar to ray casting in ray tracing</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">ray_generation</span><span class="p">(</span><span class="n">camPos</span><span class="p">,</span> <span class="n">pixel</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Uniformly</span> <span class="n">choose</span> <span class="n">N</span> <span class="n">sample</span> <span class="n">position</span> <span class="n">within</span> <span class="n">the</span> <span class="n">pixel</span>
+</span></span><span class="line"><span class="cl">    <span class="n">pixel_radiance</span> <span class="o">=</span> <span class="mf">0.0</span>
+</span></span><span class="line"><span class="cl">    <span class="n">For</span> <span class="n">each</span> <span class="n">sample</span> <span class="n">in</span> <span class="n">the</span> <span class="n">pixel</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Shoot</span> <span class="n">a</span> <span class="n">ray</span> <span class="n">r</span><span class="p">(</span><span class="n">camPos</span><span class="p">,</span> <span class="n">cam_to_sample</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">If</span> <span class="n">ray</span> <span class="n">r</span> <span class="n">hit</span> <span class="n">the</span> <span class="n">scene</span> <span class="n">at</span> <span class="n">p</span>
+</span></span><span class="line"><span class="cl">            <span class="n">pixel_radiance</span> <span class="o">+=</span> <span class="mi">1</span> <span class="o">/</span> <span class="n">N</span> <span class="o">*</span> <span class="n">shade</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">sample_to_cam</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Return</span> <span class="n">pixel_radiance</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>终止条件</p>
+<ul>
+<li>(设置追踪多少次的反弹就好了 毕竟最后回收敛 我们只需要一定次数就行了) (自想 不一定对)</li>
+</ul>
+</li>
+<li>
+<p>Solution: Russian Roulette(RR) (俄罗斯轮盘赌)</p>
+<ul>
+<li>Russian Roulette is all about probability</li>
+<li>With probability 0 &lt; P &lt; 1, you are fine</li>
+<li>With probability 1-P, otherwise</li>
+<li>Previously, we always shoot a ray at a shading point and get the shading result <strong>Lo</strong></li>
+<li>Suppose we manually set a probability P (0 &lt; P &lt; 1)</li>
+<li>With probability P, shoot a ray and return the shading result divided by P: Lo / P</li>
+<li>With probability 1-P, don’t shoot a ray and you’ll get 0</li>
+<li>In this way, you can still expect to get Lo!:</li>
+</ul>
+$$
+    E=P * (L_o / P) + (1-P) * 0 = L_o
+    $$<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">shade</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">wo</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Manually</span> <span class="n">specify</span> <span class="n">a</span> <span class="n">probability</span> <span class="n">P_RR</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Randomly</span> <span class="n">select</span> <span class="n">ksi</span> <span class="n">in</span> <span class="n">a</span> <span class="n">uniform</span> <span class="n">dist</span><span class="p">.</span> <span class="n">in</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">If</span> <span class="p">(</span><span class="n">ksi</span> <span class="o">&gt;</span> <span class="n">P_RR</span><span class="p">)</span> <span class="k">return</span> <span class="mf">0.0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">Randomly</span> <span class="n">choose</span> <span class="n">ONE</span> <span class="n">direction</span> <span class="n">wi</span><span class="o">~</span><span class="n">pdf</span><span class="p">(</span><span class="n">w</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Trace</span> <span class="n">a</span> <span class="n">ray</span> <span class="n">r</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">wi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">If</span> <span class="n">ray</span> <span class="n">r</span> <span class="n">hit</span> <span class="n">the</span> <span class="n">light</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Return</span> <span class="n">L_i</span> <span class="o">*</span> <span class="n">f_r</span> <span class="o">*</span> <span class="n">cosine</span> <span class="o">/</span> <span class="n">pdf</span><span class="p">(</span><span class="n">wi</span><span class="p">)</span> <span class="o">/</span> <span class="n">P_RR</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Else</span> <span class="n">If</span> <span class="n">r</span> <span class="n">hit</span> <span class="n">an</span> <span class="n">object</span> <span class="n">at</span> <span class="n">q</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Return</span> <span class="n">shade</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="o">-</span><span class="n">wi</span><span class="p">)</span> <span class="o">*</span> <span class="n">f_r</span> <span class="o">*</span> <span class="n">cosine</span> <span class="o">/</span> <span class="n">pdf</span><span class="p">(</span><span class="n">wi</span><span class="p">)</span> <span class="o">/</span> <span class="n">P_RR</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Now we already have a correct version of path tracing!</p>
+</li>
+<li>
+<p>But it’s not really efficient</p>
+<p><img src="/image%2045.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Understanding the reason of being inefficient</p>
+<p><img src="/image%2046.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>there will be 1 ray hitting the light. So a lot of rays are “wasted” if we uniformly sample the hemisphere at the shading point.</p>
+</li>
+<li>
+<p>apply different <strong>pdf(possibility distributed function)</strong></p>
+<ul>
+<li>Assume uniformly sampling on the light:</li>
+<li>pdf = 1 / A (because $\int pdf~dA = 1$)</li>
+<li>But the rendering equation integrates on the solid angle: Lo = $\int Li ~fr ~cos ~d\omega$</li>
+</ul>
+<p><img src="/image%2047.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>rewrite the rendering equation as</p>
+</li>
+</ul>
+$$
+L_o(x,\omega_o) = \int_{\Omega^+}L_i(x, \omega_i)f_r(x,\omega_i,\omega_o)cos\theta d\omega_i\\
+=\int_AL_i(x,\omega_i)f_r(x,\omega_i,\omega_o)\frac{cos\theta cos\theta'}{\|x'-x\|^2}dA
+$$<ul>
+<li>Now an integration on the light!</li>
+<li>Monte Carlo integration: “f(x)” : everything in side</li>
+<li>Pdf: 1 / A</li>
+<li>Now we consider the radiance coming from two parts:
+<ol>
+<li>light source (direct, no need to have RR)</li>
+<li>other reflectors (indirect, RR)</li>
+</ol>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">shade</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">wo</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="cp"># Contribution from the light source.
+</span></span></span><span class="line"><span class="cl">    <span class="n">Uniformly</span> <span class="n">sample</span> <span class="n">the</span> <span class="n">light</span> <span class="n">at</span> <span class="n">x</span><span class="err">&#39;</span> <span class="p">(</span><span class="n">pdf_light</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="n">A</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">L_dir</span> <span class="o">=</span> <span class="n">L_i</span> <span class="o">*</span> <span class="n">f_r</span> <span class="o">*</span> <span class="n">cosine</span> <span class="o">*</span> <span class="n">consine</span><span class="err">&#39;</span> <span class="o">/</span> <span class="o">|</span><span class="n">x</span><span class="err">&#39;</span> <span class="o">-</span> <span class="n">p</span><span class="o">|^</span><span class="mi">2</span> <span class="o">/</span> <span class="n">pdf_light</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="cp"># Contribution from other reflectors.
+</span></span></span><span class="line"><span class="cl">    <span class="n">L_indir</span> <span class="o">=</span> <span class="mf">0.0</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Test</span> <span class="n">Russian</span> <span class="n">Roulette</span> <span class="n">with</span> <span class="n">probability</span> <span class="n">P_RR</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Uniformly</span> <span class="n">sample</span> <span class="n">the</span> <span class="n">hemisphere</span> <span class="n">toward</span> <span class="n">wi</span> <span class="p">(</span><span class="n">pdf_hemi</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="mi">2</span><span class="n">pi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Trace</span> <span class="n">a</span> <span class="n">ray</span> <span class="n">r</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">wi</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">If</span> <span class="n">ray</span> <span class="n">r</span> <span class="n">hit</span> <span class="n">a</span> <span class="n">non</span><span class="o">-</span><span class="n">emitting</span> <span class="n">object</span> <span class="n">at</span> <span class="n">q</span>
+</span></span><span class="line"><span class="cl">        <span class="n">L_indir</span> <span class="o">=</span> <span class="n">shade</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="o">-</span><span class="n">wi</span><span class="p">)</span> <span class="o">*</span> <span class="n">f_r</span> <span class="o">*</span> <span class="n">cosine</span> <span class="o">/</span> <span class="n">pdf_hemi</span> <span class="o">/</span> <span class="n">P_RR</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Return</span> <span class="n">L_dir</span> <span class="o">+</span> <span class="n">L_indir</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>how do we know if the sample on the light is not blocked or not?</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp"># Contribution from the light source.
+</span></span></span><span class="line"><span class="cl"><span class="n">L_dir</span> <span class="o">=</span> <span class="mf">0.0</span>
+</span></span><span class="line"><span class="cl"><span class="n">Uniformly</span> <span class="n">sample</span> <span class="n">the</span> <span class="n">light</span> <span class="n">at</span> <span class="n">x</span><span class="err">&#39;</span> <span class="p">(</span><span class="n">pdf_light</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="n">A</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">Shoot</span> <span class="n">a</span> <span class="n">ray</span> <span class="n">from</span> <span class="n">p</span> <span class="n">to</span> <span class="n">x</span><span class="err">&#39;</span> 
+</span></span><span class="line"><span class="cl"><span class="n">If</span> <span class="n">the</span> <span class="n">ray</span> <span class="n">is</span> <span class="n">not</span> <span class="n">blocked</span> <span class="n">in</span> <span class="n">the</span> <span class="n">middle</span>
+</span></span><span class="line"><span class="cl">    <span class="n">L_dir</span> <span class="o">=</span> <span class="p">...</span>
+</span></span><span class="line"><span class="cl"><span class="n">Now</span> <span class="n">path</span> <span class="n">tracing</span> <span class="n">is</span> <span class="n">finally</span> <span class="n">done</span><span class="o">!</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>Some SIde Notes
+<ul>
+<li>Path tracing (PT) is indeed difficult
+<ul>
+<li>Consider it the most challenging in undergrad CS</li>
+<li>Why: physics, probability, calculus, coding</li>
+<li>Learning PT will help you understand deeper in these</li>
+</ul>
+</li>
+<li>Is it still “Introductory”?
+<ul>
+<li>Not really, but it’s “modern” 🙂</li>
+<li>And so learning it will be rewarding also because …</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="/image%2048.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>Previous
+<ul>
+<li>Ray tracing == Whitted-style ray tracing</li>
+</ul>
+</li>
+<li>Modern (my own definition)
+<ul>
+<li>The general solution of light transport, including</li>
+<li>(Unidirectional &amp; bidirectional) path tracing</li>
+<li>Photon mapping</li>
+<li>Metropolis light transport</li>
+<li>VCM / UPBP …</li>
+</ul>
+</li>
+</ul>
+<h1 id="materials-and-apperances">Materials and Apperances
+</h1><ul>
+<li>
+<p>Diffuse / Lambertian Material</p>
+<ul>
+<li>Light is eqully reflected in each output direction</li>
+</ul>
+<p><img src="/image%2049.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Glossy material (BRDF)</p>
+<p><img src="/image%2050.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Ideal reflective / refractive material (BSDF*)</p>
+<p><img src="/image%2051.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Perfect Specular Reflection</p>
+<p><img src="/image%2052.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+$$
+    \omega_o+\omega_i=2cos\theta\mathbf{n}=2(\omega_i\cdot\mathbf{n})\mathbf{n}\\
+    \omega_o=-\omega_i+2(\omega_i\cdot\mathbf{n})\mathbf{n}
+    $$</li>
+<li>
+<p>Specular Refraction</p>
+<ul>
+<li>In addition to reflecting off surface, light may be transmitted through surface.</li>
+<li>Light refracts when it enters a new medium.</li>
+</ul>
+</li>
+<li>
+<p>Snell’s Law</p>
+<ul>
+<li>
+<p>Transmitted angle depends on</p>
+<ul>
+<li>index of refraction (IOR) for incident ray</li>
+<li>index of refraction (IOR) for exiting ray</li>
+</ul>
+<p><img src="/image%2053.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+$$
+        \eta_isin\theta_i=\eta_tsin\theta_t
+        $$<p><img src="/image%2054.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Law of Refraction</p>
+<p><img src="/image%2055.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>
+<p>Total internal reflection:</p>
+<ul>
+<li>
+<p>When light is moving from a more optically dense medium to a less optically dense medium:</p>
+<p>$\frac{\eta_i}{\eta_t}&gt;1$</p>
+</li>
+<li>
+<p>Light incident on boundary from large enough angle will not exit medium</p>
+</li>
+</ul>
+$$
+        1-\frac{\eta_i}{\eta_t}^2(1-cos^2\theta_i)<0
+        $$</li>
+</ul>
+</li>
+<li>
+<p>Snell’s Window / Circle</p>
+<p><img src="/image%2056.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Fresnel Reflection / Term (菲涅尔项)</p>
+<ul>
+<li>
+<p>Reflectance depends on incident angle ( and polarization of light )</p>
+</li>
+<li>
+<p>Dielectric $\eta=1.5$</p>
+<p><img src="/image%2057.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Conductor</p>
+<p><img src="/image%2058.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Formulae</p>
+<ul>
+<li>
+<p>Accurate: need to consider polarization</p>
+$$
+            R_s = |\frac{n_1cos\theta_i-n_2cos\theta_t}{n_1cos\theta_i + n_2cos\theta_t}|^2=|\frac{n_1cos\theta_i-n_2\sqrt{1-(\frac{n_1}{n_2}sin\theta_i)^2}}{n_1cos\theta_i+n_2\sqrt{1-(\frac{n_1}{n_2}sin\theta_i)^2}}|^2\\
+            R_p = |\frac{n_1cos\theta_t-n_2cos\theta_i}{n_1cos\theta_t + n_2cos\theta_i}|^2=|\frac{n_1\sqrt{1-(\frac{n_1}{n_2}sin\theta_i)^2}-n_2cos\theta_i}{n_1\sqrt{1-(\frac{n_1}{n_2}sin\theta_i)^2}+n_2cos\theta_i}|^2\\
+            R_{eff}=\frac{1}{2}(R_s+R_p)
+            $$</li>
+<li>
+<p>Approximate: Schlick’s approximation</p>
+$$
+            R(\theta)=R_0+(1-R_0)(1-cos\theta)^5\\
+            R_0=(\frac{n_1-n_2}{n_1+n_2})^2
+            $$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Microfacet Material</p>
+<ul>
+<li>
+<p>Microfacet Theory( 远处是材质 近处是几何)</p>
+<ul>
+<li>Rough surface
+<ul>
+<li>Macroscale: flat &amp; rough</li>
+<li>Microscale: bumpy &amp; <strong>specular</strong></li>
+</ul>
+</li>
+<li>individual elements of surface act like mirrors
+<ul>
+<li>Known as Microfacets</li>
+<li>Each microfacet has its own normal</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Microfacet BRDF</p>
+<ul>
+<li>Key: the distribution of microfacets’ normals
+<ul>
+<li>Concentrated &lt; = = &gt; glossy</li>
+<li>Spread &lt; == &gt; diffuse</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Microfacet BRDF</p>
+<ul>
+<li>What kind of microfacets reflect wi to wo? (hint: microfacets are mirrors)</li>
+</ul>
+<p><img src="/image%2059.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>F — 菲涅尔项 — 反映不同角度下的反射率</li>
+<li>G — 阴影遮挡项 — 反映光能被吸收/遮挡的程度</li>
+<li>D — 微表面的法线分布 — 反映分布集中还是发散</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Isotropic / Anisotropic Materials (BRDFs) 各向同/异性材质</p>
+<ul>
+<li>
+<p>Key: directionality of underlying surface</p>
+<p><img src="/image%2060.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Anisotropic BRDFs</p>
+<ul>
+<li>Reflection depends on azimuthal angle $\phi$</li>
+</ul>
+$$
+        f_r(\theta_i,\phi_i;\theta_r,\phi_r)\neq f_r(\theta_i,\theta_r,\phi_r-\phi_i)
+        $$<ul>
+<li>Results from oriented microstructure of surface, e.g., brushed metal</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Properties of BRDFs</p>
+<ul>
+<li>
+<p>Non-negativity</p>
+$$
+        f_r(\omega_i\to\omega_r)\geq0
+        $$</li>
+<li>
+<p>Linearity</p>
+$$
+        L_r(p,\omega_r)=\int_{H^2}f_r(p,\omega_i\to\omega_r)L_i(p,\omega_i)cos\theta_id\omega_i
+        $$</li>
+<li>
+<p>Reciprocity principle</p>
+$$
+        f_r(\omega_r\to\omega_i)=f_r(\omega_r\to\omega_r)
+        $$</li>
+<li>
+<p>Energy conservation</p>
+$$
+        \forall\omega_r\int_{H^2}f_r(\omega_i\to\omega_r)cos\theta_id\omega_i\leq1
+        $$</li>
+<li>
+<p>Isotropic vs. anisotropic</p>
+<ul>
+<li>If isotropic, $f_r(\theta_i,\phi_i;\theta_r,\phi_r)=f_r(\theta_i,\theta_r,\phi_r-\phi_i)$</li>
+<li>Then, from reciprocity,</li>
+</ul>
+$$
+        f_r(\theta_i,\theta_r,\phi_r-\phi_i)=f_r(\theta_r,\theta_i,\phi_i-\phi_r)=f_r(\theta_i,\theta_r,|\phi_r-\phi_i|)
+        $$</li>
+</ul>
+</li>
+<li>
+<p>Measuring BRDFs</p>
+<ul>
+<li>
+<p>Motivation</p>
+<ul>
+<li>Avoid need to develop / drive models
+<ul>
+<li>Automatically includes all of the scattering effects present</li>
+</ul>
+</li>
+<li>Can accurately render with real-world materials
+<ul>
+<li>Useful for product design, special effects, …</li>
+</ul>
+</li>
+<li>Theory vs. practice</li>
+</ul>
+</li>
+<li>
+<p>gonioreflectometer (tool)</p>
+</li>
+<li>
+<p>General approach:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">foreach</span> <span class="n">outgoing</span> <span class="n">direction</span> <span class="n">wo</span>
+</span></span><span class="line"><span class="cl">    <span class="n">move</span> <span class="n">light</span> <span class="n">to</span> <span class="n">illuminate</span> <span class="n">surface</span> <span class="n">with</span> <span class="n">a</span> <span class="n">thin</span> <span class="n">beam</span> <span class="n">from</span> <span class="n">wo</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">each</span> <span class="n">incoming</span> <span class="n">direction</span> <span class="n">wi</span>
+</span></span><span class="line"><span class="cl">        <span class="n">move</span> <span class="n">sensor</span> <span class="n">to</span> <span class="n">be</span> <span class="n">at</span> <span class="n">direction</span> <span class="n">wi</span> <span class="n">from</span> <span class="n">surface</span>
+</span></span><span class="line"><span class="cl">        <span class="n">measure</span> <span class="n">incident</span> <span class="n">radiance</span> 
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Improving efficiency:</p>
+<ul>
+<li>Isotropic surfaces reduce dimensionality from 4D to 3D</li>
+<li>Reciprocity reducces # of measurements by half</li>
+<li>Clever optical systems…</li>
+</ul>
+</li>
+<li>
+<p>Challenges</p>
+<ul>
+<li>Accurate measurements at grazing angles
+<ul>
+<li>Important due to Fresnel effects</li>
+</ul>
+</li>
+<li>Measuring with dense enough sampling to capture high frequency specularities</li>
+<li>Retro-reflection</li>
+<li>Spatially-varing reflectance, …</li>
+</ul>
+</li>
+<li>
+<p>Representing</p>
+<ul>
+<li>Desirable qualities
+<ul>
+<li>Compact representation</li>
+<li>Accurate representation of measured data</li>
+<li>Efficient evaluation for arbitrary pairs of directions</li>
+<li>Good distributions available for importance sampling</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Tabular Representation</p>
+<ul>
+<li>Store regularly-spaced samples in ( $\theta_i, \theta_o, |\phi_i-\phi_o|$)
+<ul>
+<li>Better: reparameterize angles to better match specularities</li>
+</ul>
+</li>
+<li>Generally need to resample measured values to table</li>
+<li>Very high storage requirements</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="advanced-topics-in-rendering">Advanced Topics in Rendering
+</h1><h2 id="advanced-light-transport">Advanced Light Transport
+</h2><ul>
+<li>Unbiased light transport methods
+<ul>
+<li>Bidirectional path tracing (BDPT)</li>
+<li>Metropolis light transport (MLT)</li>
+</ul>
+</li>
+<li>Biased light transport methods
+<ul>
+<li>Photon mapping</li>
+<li>Vertex connection and merging (VCM)</li>
+</ul>
+</li>
+<li>Instant radiosity (VPL / many light  methods)</li>
+</ul>
+<h3 id="biased-vs-unbiased-monte-carlo-estimators">Biased vs. Unbiased Monte Carlo Estimators
+</h3><ul>
+<li>An <strong>unbiased</strong> Monte Carlo technique does not have any systematic error
+<ul>
+<li>The expected value of an unbiased estimator will always be the correct value, no matter how many samples are used</li>
+</ul>
+</li>
+<li>Otherwise, <strong>biased</strong>
+<ul>
+<li>One special case, the expected value converges to the correct value as infinite #samples are used — <strong>consistent</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="bidirectional-path-tracing-bdpt">Bidirectional Path Tracing (BDPT)
+</h3><ul>
+<li>Recall: a path connects the camera and the light</li>
+<li>BDPT
+<ul>
+<li>Traces sub-paths from both the camera and the light</li>
+<li>Connects the end points from both sub-paths</li>
+</ul>
+</li>
+<li>Suitable if the light transport is complex on the light’s side</li>
+<li>Difficult to implement &amp; quite slow</li>
+</ul>
+<h3 id="metropolis-light-transport-mlt">Metropolis Light Transport (MLT)
+</h3><ul>
+<li>A Markov Chain Monte Carlo (MCMC) application
+<ul>
+<li>Jumping from the current sample to the next with some PDF</li>
+</ul>
+</li>
+<li>Very good at locally exploring difficult light paths</li>
+<li>Key idea
+<ul>
+<li>Locally perturb an existing path to get a new path</li>
+</ul>
+</li>
+<li>Works great with difficult light paths</li>
+<li>Also unbiased</li>
+<li>Cons
+<ul>
+<li>Difficult to estimate the convergence rate</li>
+<li>Does not guarantee equal convergence rate per pixel</li>
+<li>So, usually produces “dirty” results</li>
+<li>Therefore, usually not used to render animations</li>
+</ul>
+</li>
+</ul>
+<h3 id="photon-mapping">Photon Mapping
+</h3><ul>
+<li>A biased approach &amp; A two-stage method</li>
+<li>Very good at handling Specular-Diffuse-Specular (SDS) paths and generating <strong>caustics (光线聚焦导致的强图案)</strong></li>
+<li>Approch
+<ul>
+<li>Stage1 — photon tracing
+<ul>
+<li>Emitting photons from the light source, bouncing them around, then recording photons on diffuse surfaces</li>
+</ul>
+</li>
+<li>Stage2 — photon collection (final gathering)
+<ul>
+<li>Shoot sub-paths from the camera, bouncing them around, until they hit diffuse surfaces</li>
+</ul>
+</li>
+<li>Calculation — local density estimation
+<ul>
+<li>Idea: areas with more photons should be brighter</li>
+<li>For each shading point, find the nearest N photons. Take the surface area they over</li>
+</ul>
+</li>
+<li>biased
+<ul>
+<li>local density estimation dN / dA ≠ $\Delta N/\Delta A$</li>
+<li>but in the sense of limit
+<ul>
+<li>More photons emitted →</li>
+<li>the same N photons covers a smaller $\Delta A$→</li>
+<li>$\Delta A$ is closer to dA</li>
+</ul>
+</li>
+<li>So, biased but consistent!</li>
+</ul>
+</li>
+<li>An easier understanding bias in rendering
+<ul>
+<li>Biased == blurry</li>
+<li>Consistent == not blurry with infinite #samples</li>
+</ul>
+</li>
+<li>Why not do a “const range” search for density estimation?</li>
+</ul>
+</li>
+</ul>
+<h3 id="vertex-connection-and-merging">Vertex Connection and Merging
+</h3><ul>
+<li>A combination of BDPT and Photon Mapping</li>
+</ul>
+<h3 id="instant-radiosity-ir">Instant Radiosity (IR)
+</h3><ul>
+<li>Sometimes also called many-light approaches</li>
+<li>Key idea
+<ul>
+<li>Lit surfaces can be treated as light sources</li>
+</ul>
+</li>
+<li>Approach
+<ul>
+<li>Shoot light sub-paths and assume the end point of each sub-path is a Virtual Point Light (VPL)</li>
+<li>Render the scene as usual using these VPLs</li>
+</ul>
+</li>
+<li>Pros: fast and usually gives good results on diffuse scenes</li>
+<li>Cons
+<ul>
+<li>Spikes will emerge when VPLs are close to shading points</li>
+<li>Cannot handle glossy materials</li>
+</ul>
+</li>
+</ul>
+<h2 id="advanced-apperance-modeling">Advanced Apperance Modeling
+</h2><ul>
+<li>Non-surface models
+<ul>
+<li>Participating media</li>
+<li>Hair / fur / fiber (BCSDF)</li>
+<li>Granular material</li>
+</ul>
+</li>
+<li>Surface models
+<ul>
+<li>Translucent material (BSSRDF)</li>
+<li>Cloth</li>
+<li>Detailed material (non-statistical BRDF)</li>
+</ul>
+</li>
+<li>Procedural apperance</li>
+</ul>
+<h3 id="non-surface-models">Non-surface models
+</h3><ul>
+<li>
+<p>Participating Media</p>
+<ul>
+<li>
+<p>fog</p>
+</li>
+<li>
+<p>cloud</p>
+</li>
+<li>
+<p>At any point as light travels through a participating medium, it can be (partially) absorbed and scattered.</p>
+<p><img src="/image%2061.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Use Phase Function to describe the angular distribution of light scattering at any point x within participating media.</p>
+<p><img src="/image%2062.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Rendering</p>
+<ul>
+<li>Randomly choose a direction to bounce</li>
+<li>Randomly choose a distance to go straight</li>
+<li>At each ‘shading point’, connect to the light</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Hair Apperance</p>
+<ul>
+<li>Kajiya-Kay Model (不太真实) 直接反射</li>
+<li>Marschner Model (R)部分直接反射 + (TT)穿透 + (TRT)穿透后反射</li>
+</ul>
+<p><img src="/image%2063.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Fur Appearance</p>
+<ul>
+<li>Cannot represent diffusive and saturated appearance ( Marschner)</li>
+</ul>
+<p><img src="/image%2064.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Double Cylinder Model</p>
+<p><img src="/image%2065.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Granular Material (颗粒材质)</p>
+</li>
+</ul>
+<h3 id="surface-models">Surface Models
+</h3><ul>
+<li>
+<p>Subsurface Scattering (次表面反射)</p>
+<ul>
+<li>Visual characteristics of many surfaces caused by light exiting at different points than it enters
+<ul>
+<li>Violates a fundamental assumption of the BRDF</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Scattering Functions</p>
+<ul>
+<li>BSSRDF: generalization of BRDF; exitant radiance at one point due to incident differential irradiance at another point:</li>
+</ul>
+$$
+    S(x_i,\omega_i,x_o,\omega_o)
+    $$<ul>
+<li>Generalization of rendering equation: integrating over all points on the surface and all directions (!)</li>
+</ul>
+$$
+    L(x_o,\omega_o) = \int_A\int_{H^2}S(x_i,\omega_i,x_o,\omega_o)L_i(x_i,\omega_i)cos\theta_id\omega_i dA
+    $$<p><img src="/image%2066.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Dipole Approximation</p>
+<ul>
+<li>Approximate light diffusion by introducing two point sources.</li>
+</ul>
+<p><img src="/image%2067.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Cloth</p>
+<ul>
+<li>
+<p>A collection of twisted fibers!</p>
+</li>
+<li>
+<p>Two levels of twist</p>
+<p><img src="/image%2068.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Woven or knitted</p>
+<p><img src="/image%2069.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Cloth: Render as Surface</p>
+<ul>
+<li>Given the weaving pattern, calculate the overall behavior</li>
+<li>Render using a BRDF</li>
+</ul>
+</li>
+<li>
+<p>Render as Participating Media</p>
+<ul>
+<li>Properties of individual fibers &amp; their distribution → scattering parameters</li>
+<li>Render as a participating medium</li>
+</ul>
+</li>
+<li>
+<p>Render as actual Fibers</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Detailed Apperance: Motivation</p>
+</li>
+<li>
+<p>Recap: Microfacet BRDF</p>
+<ul>
+<li>Surface = <strong>Specular</strong> microfacets + <strong>statistical</strong> normals</li>
+</ul>
+</li>
+<li>
+<p>Wave Optics</p>
+</li>
+</ul>
+<h3 id="procedural-apperance">Procedural Apperance
+</h3><ul>
+<li>Compute a noise function on the fly</li>
+</ul>
+<h1 id="cameras-lenses-and-light-fields">Cameras, Lenses and Light Fields
+</h1><ul>
+<li>
+<p>Pinholes &amp; Lenses Form Image on Sensor(传感器)</p>
+<p><img src="/image%2070.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Shutter(快门) Exposes Sensor For Precise Duration</p>
+</li>
+<li>
+<p>Sensor Accumulates Irradiance During Exposure</p>
+</li>
+<li>
+<p>Without Lenses each sensor point would integrate light from all points on the object, so all pixel values would be similar i.e. the sensor records irradiance</p>
+</li>
+</ul>
+<h3 id="field-of-view-fov-视场">Field of View (FOV) (视场)
+</h3><ul>
+<li>
+<p>Effect of Focal Length(焦距) on FOV</p>
+<p><img src="/image%2071.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>For a fixed sensor size, decreasing the focal length increases the field of view.</li>
+</ul>
+$$
+    FOV = 2 arctan(\frac{h}{2f})
+    $$</li>
+<li>
+<p>Focal Length v. Field of View</p>
+<ul>
+<li>For historical reasons, it is common to refer to angular field of view by focal length of a lens used on a 35mm-format film (36 x 24mm)</li>
+<li>Examples of focal lengths on 35mm format:
+<ul>
+<li>17mm is wide angle 104°</li>
+<li>50mm is a “normal” lens 47°</li>
+<li>200mm is telephoto lens 12°</li>
+</ul>
+</li>
+<li>Careful! When we say current cell phones have approximately 28mm “equivalent” focal length, this uses the above convention.</li>
+</ul>
+</li>
+<li>
+<p>Effect of Sensor Size on FOV</p>
+<p><img src="/image%2072.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>To maintain FOV, decrease focal length of lens in proportion to width/height of sensor</p>
+</li>
+</ul>
+<h3 id="exposure">Exposure
+</h3><ul>
+<li>
+<p>H = T x E</p>
+</li>
+<li>
+<p>Exposure = time x irradiance</p>
+</li>
+<li>
+<p>Exposure time (T)</p>
+<ul>
+<li>Controlled by shutter</li>
+</ul>
+</li>
+<li>
+<p>Irradiance (E)</p>
+<ul>
+<li>Power of light falling on a unit area of sensor</li>
+<li>Controlled by lens aperture and focal length</li>
+</ul>
+</li>
+<li>
+<p>Exposure Controls in Photography</p>
+<ul>
+<li>
+<p>Aperture size</p>
+<ul>
+<li>Change the f-stop(f数, 越小光圈越大) by opening / closing the aperture (if camera has iris control)</li>
+<li>F-Number(F-Stop): Exposure Levels
+<ul>
+<li>Written as FN or F/N. N is the f-number.</li>
+<li>Informal understanding: the inverse-diameter of a round aperture</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Shutter speed</p>
+<ul>
+<li>Change the duration the sensor pixels integrate light</li>
+<li>side effect of shutter speed
+<ul>
+<li>Motion blur: handshake, subject movement</li>
+<li>Doubling shutter time doubles motion blur</li>
+<li>Note: motion blur is not always bad!</li>
+<li>Tip: think about anti-aliasing</li>
+<li>Rolling shutter: different parts of photo taken at different times</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>ISO gain (感光度)</p>
+<ul>
+<li>Change the amplification (analog and/or digital) between sensor values and digital image values</li>
+<li>Third variable for exposure</li>
+<li>Film: Trade sensitivity for grain</li>
+<li>Digital: trade sensitivity for noise
+<ul>
+<li>Multiply signal before analog-to-digital conversion</li>
+<li>Linear effect (ISO 200 needs half the light as ISO 100)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Constant Exposure: F-Stop vs Shutter Speed</p>
+<ul>
+<li>Example: these paris of aperture and shutter speed give equivalent exposure</li>
+</ul>
+<p><img src="/image%2073.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>If the exposure is too bright/dark, may need to adjust f-stop and/or shutter up/down
+<ul>
+<li>Photographers must trade off depth of field (?) and motion blur for moving subjects</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="/image%2074.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+<h3 id="fast-and-slow-photography">Fast and Slow Photography
+</h3><ul>
+<li>High-Speed Photography
+<ul>
+<li>Normal exposure = extremely fast shutter speed x (large aperture and/or high ISO</li>
+</ul>
+</li>
+<li>Long-Exposure Photography</li>
+</ul>
+<h3 id="thin-lens-approximation">Thin Lens Approximation
+</h3><ul>
+<li>
+<p>Real Lens Designs Are Highly complex</p>
+</li>
+<li>
+<p>Real Lens Elements Are Not Ideal — Aberrations</p>
+<p><img src="/image%2075.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Ideal Thin Lens — Focal Point</p>
+<ul>
+<li>All parallel rays entering a lens pass through its focal point</li>
+<li>All rays through a focal point will be in parallel after passing the lens</li>
+<li>Focal length can be arbitrarily changed (in reality, yes!)</li>
+</ul>
+</li>
+<li>
+<p>The Thin Lens Equation</p>
+<p><img src="/image%2076.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+$$
+    \frac{1}{f} = \frac{1}{z_i}+\frac{1}{z_o}
+    $$</li>
+<li>
+<p>Gauss’ Ray Tracing Construction</p>
+<p><img src="/image%2077.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%2078.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+<h3 id="defocus-blur">Defocus Blur
+</h3><ul>
+<li>
+<p>Computing Circle of Confusion (CoC) Size</p>
+<ul>
+<li>
+<p>Circleof confusion is proportional to the size of the aperture</p>
+<p><img src="/image%2079.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+$$
+        \frac{C}{A} = \frac{d'}{z_i}=\frac{|z_s-z_i|}{z_i}
+        $$</li>
+</ul>
+</li>
+<li>
+<p>Revisiting F-Number(a.k.a. F-Stop)</p>
+<ul>
+<li>Formal definition: The f-number of a lens is defined as the focal length divided by the diameter of the aperture</li>
+<li>Common f-stops on real lenses: 1.4, 2, 2.8, 4.0, 5.6, 8, 11, 16, 22, 32</li>
+<li>An f-stop of 2 is sometimes written f/2, reflecting the fact that the absolute aperture diameter (A) can be computed by dividing focal length (f) by the relative aperture (N).</li>
+</ul>
+</li>
+</ul>
+$$
+C = A\frac{|z_s-z_i|}{z_i}=\frac{f}{N}\frac{|z_s-z_i|}{z_i}
+$$<h3 id="ray-tracing-ideal-thin-lenses">Ray Tracing Ideal Thin Lenses
+</h3><ul>
+<li>Ray Tracing for Defocus Blur (Thin Lens)
+<ul>
+<li>(One possible) Setup:
+<ul>
+<li>Choose sensor size, lens focal length and aperture size</li>
+<li>Choose depth of subject of interest $z_o$
+<ul>
+<li>Calculate corresponding depth of sensor $z_i$ from thin lens equation (focusing)</li>
+</ul>
+</li>
+<li>Rendering:
+<ul>
+<li>For each pixel x’ on the sensor (actually, film(胶片))</li>
+<li>Sample random points x’’ on lens plane</li>
+<li>You know the ray passing through the lens will hit x’’’ (using the thin lens formula)</li>
+<li>Estimate radiance on ray x’’ → x’’’</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="depth-of-field">Depth of Field
+</h3><ul>
+<li>Set circle of confusion as the maximum permissible blur spot on the image plane that will appear sharp under final viewing conditions</li>
+<li>光圈越小 景深越大/清晰的范围大</li>
+<li>焦距越大 景深越小</li>
+<li>CoC 越大 景深越深/清晰的范围大</li>
+</ul>
+<h3 id="light-field--lumigraph">Light Field / Lumigraph
+</h3><ul>
+<li>
+<p>The Plenoptic Function (全光函数)</p>
+$$
+    P(\theta,\phi)
+    $$<ul>
+<li>if intensity of light
+<ul>
+<li>Seen from a single view point</li>
+<li>At a single time</li>
+<li>Averaged over the wavelengths of the visible spectrum</li>
+</ul>
+</li>
+<li>can also do P(x,y), but spherical coordinate are nicer)</li>
+</ul>
+</li>
+<li>
+<p>snapshot</p>
+$$
+    P(\theta,\phi,\lambda)
+    $$<ul>
+<li>is intensity of light
+<ul>
+<li>Seen from a single view point</li>
+<li>At a single time</li>
+<li>As a function of wavelength</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>movie</p>
+$$
+    P(\theta,\phi,\lambda,t)
+    $$<ul>
+<li>is intensity of light
+<ul>
+<li>Seen from a single view point</li>
+<li>Over time</li>
+<li>As a function of wavelength</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Holographic movie</p>
+$$
+    P(\theta,\phi,\lambda,t,V_X,V_Y,V_Z)
+    $$<ul>
+<li>is intensity of light
+<ul>
+<li>Seen from ANY viewpoint</li>
+<li>Over time</li>
+<li>As a function of wavelength</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>The Plenoptic Function</p>
+<ul>
+<li>Can reconstruct every possible view, at every moment, from every position, at every wavelength</li>
+<li>Contains every photograph, every movie, everything that anyone has ever seen! it completely captures our visual reality! Not bad for a function…</li>
+</ul>
+</li>
+<li>
+<p>Ray</p>
+<ul>
+<li>
+<p>Let’s not worry about time and color:</p>
+</li>
+<li>
+<p>5D</p>
+<ul>
+<li>3D position</li>
+<li>2D direction</li>
+</ul>
+</li>
+<li>
+<p>Ray Reuse</p>
+<ul>
+<li>Infinite line
+<ul>
+<li>Assume light is constant (vacuum)</li>
+</ul>
+</li>
+<li>4D
+<ul>
+<li>2D direction</li>
+<li>2D position</li>
+<li>non-dispersive medium</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Only need plenoptic surface</p>
+<p><img src="/image%2080.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+</li>
+<li>
+<p>光场 (part of the plenoptic function)</p>
+<ul>
+<li>在任何一个位置往任何一个方向去的光的强度</li>
+</ul>
+</li>
+<li>
+<p>Synthesizing novel views</p>
+</li>
+<li>
+<p>Integral Imaging (”Fly’s Eye” Lenslets)</p>
+<ul>
+<li>Spatially-multiplexed light field capture using lenslets
+<ul>
+<li>Impose fixed trade-off between spatial and angular resolution</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Light Field Camera</p>
+<ul>
+<li>
+<p>Lytro Light Field Camera</p>
+<ul>
+<li>Lytro: founded by Prof. Ren Ng (UC Berkeley)</li>
+<li>Microlens design</li>
+<li>Most significant function
+<ul>
+<li><strong>Computational Refocusing</strong>(virtually changing focal length &amp; aperture size, etc. after taking the photo)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Understanding</p>
+<ul>
+<li>Each pixel (irradiance) is now stored as a block of pixels (radiance)</li>
+<li>A close-up view of a picture taken</li>
+</ul>
+<p><img src="/image%2081.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>一个像素记录的 irradiance 被拆成了 光场(radiance)</li>
+</ul>
+</li>
+<li>
+<p>How to get a “regular” photo from the light field photo?</p>
+<ul>
+<li>A simple case — always choose the pixel at the bottom of each block</li>
+<li>Then the central ones &amp; the top ones</li>
+<li>Essentially “moving the camera around”</li>
+</ul>
+</li>
+<li>
+<p>Computational / digital refocusing</p>
+<ul>
+<li>Same idea: visually changing focal length, picking the refocused ray directions accordingly</li>
+</ul>
+</li>
+<li>
+<p>problems</p>
+<ul>
+<li>Insufficient spatial resolution ( same film used for both spatial and directional information)</li>
+<li>High cost (intricate designation of microlenses)</li>
+</ul>
+</li>
+<li>
+<p>experience</p>
+<ul>
+<li>Compute Graphics is about trade-offs</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="color-and-perception">Color and Perception
+</h1><h2 id="physical-basis-of-color">Physical Basis of Color
+</h2><ul>
+<li>Spectral Power Distribution (SPD) (谱功率密度)
+<ul>
+<li>Salient property in measuring light
+<ul>
+<li>The amount of light present at each wavelength</li>
+<li>Units:
+<ul>
+<li>radiometric units / nanometer (e.g. watts / nm)</li>
+<li>Can also be unit-less</li>
+</ul>
+</li>
+<li>Often use “relative units” scaled to maximum wavelength for comparison across wavelengths when absolute units are not important</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Color is a phenomenon of human perception; it is not a universal property of light</li>
+<li>Different wavelengths of light are not “colors”</li>
+</ul>
+<h3 id="biological-basis-of-color">Biological Basis of Color
+</h3><ul>
+<li>Retinal Photoreceptor Cells (感光细胞): Rods and Cones
+<ul>
+<li>
+<p><strong>Rods</strong> are primary receptors in very low light (”scotopic” conditions), e.g. dim moonlight</p>
+<ul>
+<li>~120 million rods in eye</li>
+<li>Perceive only shades of gray, no color</li>
+</ul>
+</li>
+<li>
+<p><strong>Cones</strong> are primary recepors in typical light levels (”photopic”)</p>
+<ul>
+<li>~6-7 million cones in eye</li>
+<li>Three types of cones, each with differental spectral sensitivity</li>
+<li>Provide sensation of <strong>color</strong></li>
+<li>Three types of cone cells: S, M, and L (corresponding to peak response at short, medium, and long wavelengths)</li>
+</ul>
+$$
+        S=\int r_S(\lambda)s(\lambda)d\lambda\\
+        M=\int r_M(\lambda)s(\lambda)d\lambda\\
+        L=\int r_L(\lambda)s(\lambda)d\lambda
+        $$</li>
+<li>
+<p>Human eye does not measure and brain does not receive information about each wavelength of light</p>
+</li>
+<li>
+<p>Rather, <strong>the eye “sees” only three response values (S, M, L)</strong>, and this is only info available to brain</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="metamerism-同色异谱">Metamerism (同色异谱)
+</h3><ul>
+<li>Metamers
+<ul>
+<li>Metamers are two different spctra ( $\infty$-dim) that project to the same (S,M,L) (3-dim) response
+<ul>
+<li>These will appear to have the same color to a human</li>
+</ul>
+</li>
+<li>The existence of metamers is critical to color reproduction
+<ul>
+<li>Don’t have to reproduce the full spectrum of a real world scene</li>
+<li>Example: A metamer can reproduce the perceived color of a real-world scene on a display with pixels of only three colors</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="color-reproduction--matching">Color Reproduction / Matching
+</h3><ul>
+<li>
+<p>Additive Color</p>
+<ul>
+<li>Given a set of primary lights, each with its own spectral distribution (e.g. R,G,B display pixels):</li>
+</ul>
+$$
+    s_R(\lambda),s_G(\lambda),s_B(\lambda)
+    $$<ul>
+<li>Adjust the brightness of these lights and add them together:</li>
+</ul>
+$$
+    Rs_R(\lambda) + Gs_G(\lambda) + Bs_B(\lambda)
+    $$<ul>
+<li>The color is now described by the scalar values: RGB</li>
+</ul>
+</li>
+</ul>
+<h3 id="color-space">Color Space
+</h3><ul>
+<li>Standaradlized RGB (sRGB)
+<ul>
+<li>makes a particular monitor RGB standard</li>
+<li>other color devices simulate that monitor by calibration</li>
+<li>widely adopted today</li>
+<li>gamut(色域)  is limited</li>
+</ul>
+</li>
+</ul>
+<p><img src="/image%2082.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%2083.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>Gamut
+<ul>
+<li>Gamut is the set of chromaticities generated by a set of color primaries</li>
+<li>Different color spaces represent different ranges of color</li>
+<li>So they have different gamuts, i.e. they cover different regions on the chromaticity diagram</li>
+</ul>
+</li>
+</ul>
+<h3 id="perceptually-organized-color-spaces">Perceptually Organized Color Spaces
+</h3><ul>
+<li>
+<p>HSV Color Space (Hue(色调)-Saturation(饱和度)-Value(亮度))</p>
+<ul>
+<li>Axes correspond to artistic characteristics of color</li>
+<li>Widely used in a “color picker”</li>
+<li>Hue (色调)
+<ul>
+<li>the “kind” of color, regardless of attributes</li>
+<li>colorimetric correlate: dominant wavelength</li>
+<li>artist’s correlate: the chosen pigment color</li>
+</ul>
+</li>
+<li>Saturation (饱和度)
+<ul>
+<li>the “colorfulness”</li>
+<li>colorimetric correlate: purity</li>
+<li>artist’s correlate: fraction of paint from the colored tube</li>
+</ul>
+</li>
+<li>Lightness (or value) (亮度)
+<ul>
+<li>the overall amount of light</li>
+<li>colorimetric correlate: luminance</li>
+<li>artist’s correlate: tints are lighter, shades are darker</li>
+</ul>
+</li>
+</ul>
+<p><img src="/image%2084.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+<h1 id="animation">Animation
+</h1><ul>
+<li>“Bring things to life”
+<ul>
+<li>Communication tool</li>
+<li>Aesthetic(审美) issues often dominate technical issues</li>
+</ul>
+</li>
+<li>An extension of modeling
+<ul>
+<li>Represent scene models as a function of time</li>
+</ul>
+</li>
+<li>Output: sequence of images that when viewed sequentially provide a sense of motion
+<ul>
+<li>Film: 24 frames per second</li>
+<li>Video (in general): 30 fps</li>
+<li>Virtual reality: 90 fps</li>
+</ul>
+</li>
+</ul>
+<h2 id="history">History
+</h2><h2 id="keyframe-animation">Keyframe animation
+</h2><ul>
+<li>Animator (e.g. lead animator) creates keyframes</li>
+<li>Assistant (person or computer) creates in-between frames</li>
+<li>Keyframe Interpolation
+<ul>
+<li>Think of each frame as a vector of parameter values</li>
+</ul>
+</li>
+<li>Keyframe Interpolation of Each Parameter
+<ul>
+<li>Linear interpolation usually not good enough</li>
+<li>Recalls splines for smooth / controllable interpolation</li>
+</ul>
+</li>
+</ul>
+<h2 id="physical-simulation">Physical simulation
+</h2><ul>
+<li>
+<p>Newton’s Law</p>
+$$
+    F=ma
+    $$</li>
+<li>
+<p>Physically Based Animation</p>
+<ul>
+<li>Generate motion of objects using numerical simulation</li>
+</ul>
+$$
+    x^{t+\Delta t}=x^t + \Delta t v^t + \frac{1}{2}(\Delta t)^2 a^t
+    $$</li>
+</ul>
+<h3 id="mass-spring-system-example-of-modeling-a-dynamic-system">Mass Spring System: Example of Modeling a Dynamic System
+</h3><ul>
+<li>
+<p>A Simple Spring</p>
+<ul>
+<li>
+<p>Idealized spring</p>
+</li>
+<li>
+<p>Force pulls points together</p>
+<p><img src="/image%2085.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Strength proportional to displacement (Hooke’s Law)</p>
+</li>
+<li>
+<p>$k_s$ is a spring coefficient: stiffness</p>
+</li>
+<li>
+<p>Problem: this spring wants to have zero length</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Non-Zero Length Spring</p>
+<ul>
+<li>
+<p>Spring with non-zero rest length</p>
+<p><img src="/image%2086.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Problem: oscillates(振动) forever</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Dot Notation for Derivatives</p>
+<ul>
+<li>If $x$ is a vector for the position of a point of interest, we will use dot notation for velocity and acceleration:
+(位移对时间的导数)</li>
+</ul>
+$$
+    x\\
+    \dot{x}=v\\
+    \ddot{x}=a
+    $$</li>
+<li>
+<p>Introducing Energy Loss</p>
+<ul>
+<li>
+<p>Simple motion damping</p>
+<p><img src="/image%2087.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>Behaves like viscous drag on motion</li>
+<li>Slows down motion in the direction of velocity</li>
+<li>$k_d$ is a damping coefficient</li>
+</ul>
+</li>
+<li>
+<p>Problem: slows down all motion</p>
+<ul>
+<li>Want a rusty(生锈的) spring’s to slow down, but should it also fall to the ground more slowly?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Internal Damping for Spring</p>
+<ul>
+<li>
+<p>Damp only the internal, spring-driven motion</p>
+<p><img src="/image%2088.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>Viscous drag only on change in spring length
+<ul>
+<li>Won’t slow group motion for the spring system (e.g. global translation or rotation of the group)</li>
+</ul>
+</li>
+<li>Note: This is only one specific type of damping</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Structures from Spring</p>
+<ul>
+<li>
+<p>Behavior is determined by structure linkages</p>
+<p><img src="/image%2089.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%2090.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+<p><img src="/image%2091.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%2092.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+<h3 id="particle-systems-粒子系统">Particle Systems (粒子系统)
+</h3><ul>
+<li>
+<p>Model dynamical systems as collections of large numbers of particles</p>
+</li>
+<li>
+<p>Each particle’s motion is defined by a set of physical (or non-physical) forces</p>
+</li>
+<li>
+<p>Popular technique in graphics and games</p>
+<ul>
+<li>Easy to understand, implement</li>
+<li>Scalable: fewer particles for speed, more for higher complexity</li>
+</ul>
+</li>
+<li>
+<p>Challenges</p>
+<ul>
+<li>May need many particles (e.g. fluids)</li>
+<li>May need acceleration structures (e.g. to find nearest particles for interactions)</li>
+</ul>
+</li>
+<li>
+<p>Particle System Animations</p>
+<ul>
+<li>For each frame in animation
+<ul>
+<li>[If needed] Create new particles</li>
+<li>Calculate forces on each particle</li>
+<li>Update each particle’s position and velocity</li>
+<li>[If needed] Remove dead particles</li>
+<li>Render particles</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Particle System Forces</p>
+<ul>
+<li>Attraction and repulsion forces
+<ul>
+<li>Gravity, electromagnetism, …</li>
+<li>Springs, propulsion, …</li>
+</ul>
+</li>
+<li>Damping forces
+<ul>
+<li>Friction, air drag, viscosity, …</li>
+<li>Dynamic objects, character body parts, …</li>
+</ul>
+</li>
+<li>Gravitational Attraction
+<ul>
+<li>
+<p>Newton’s universal law of gravitation</p>
+<ul>
+<li>Gravitational pull between particles</li>
+</ul>
+<p><img src="/image%2093.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Simulated Flocking as an ODE</p>
+<ul>
+<li>Model each bird as a particle</li>
+<li>Subject to very simple forces:
+<ul>
+<li>attraction to center of neighbors</li>
+<li>repulsion from individual neighbors</li>
+<li>alignment toward average trajectory of neighbors</li>
+</ul>
+</li>
+<li>Simulate evolution of large particle system numerically</li>
+<li>Emergent complex behavior (also seen in fish, bees, …)</li>
+</ul>
+</li>
+</ul>
+<h2 id="kinematics运动学">Kinematics(运动学)
+</h2><h3 id="forward-kinematics前向运动学">Forward Kinematics(前向运动学)
+</h3><ul>
+<li>
+<p>Articulated skelton</p>
+<ul>
+<li>Topology (what’s connected to what)</li>
+<li>Geometric relations from joints</li>
+<li>Tree structure (in absence of loops)</li>
+</ul>
+</li>
+<li>
+<p>Joint types</p>
+<ul>
+<li>Pin (1D rotation)</li>
+<li>Ball (2D rotation)</li>
+<li>Prismatic joint (translation)</li>
+</ul>
+</li>
+<li>
+<p>Animator provides angles, and computer determines position p of end-effector</p>
+<p><img src="/image%2094.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Kinematics Pros and Cons</p>
+<ul>
+<li>Strengths
+<ul>
+<li>Direct controls is convenient</li>
+<li>Implementation is straightforward</li>
+</ul>
+</li>
+<li>Weaknesses
+<ul>
+<li>Animation may be incosistent with physics</li>
+<li>Time consuming for artists</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="inverse-kinematics-逆运动学">Inverse Kinematics (逆运动学)
+</h3><ul>
+<li>Numerical solution to general N-link IK problem
+<ul>
+<li>Choose an initial configuration</li>
+<li>Define an error metric (e.g. square of distance between goal and current position)</li>
+<li>Compute gradient of error as function of configuration</li>
+<li>Apply gradient descent (or Newton’s method, or other optimization procedure)</li>
+</ul>
+</li>
+</ul>
+<h2 id="rigging骨骼绑定">Rigging(骨骼绑定)
+</h2><ul>
+<li>Rigging is a set of higher level controls on a character that allow more rapid &amp; intuitive modification of pose, deformations, expression, etc.</li>
+<li>Important
+<ul>
+<li>Like strings on a puppet</li>
+<li>Captures all meaningful character changes</li>
+<li>Varies from character to character</li>
+</ul>
+</li>
+<li>Expensive to create
+<ul>
+<li>Manual effort</li>
+<li>Requires both artistic and technical training</li>
+</ul>
+</li>
+<li>Blend Shapes
+<ul>
+<li>Instead of skeleton, interpolate directly between surfaces</li>
+<li>E.g., model a collection of facial expressions:</li>
+<li>Simplest scheme: take linear combination of vertex positions</li>
+<li>Spline used to control choice of weights over time</li>
+</ul>
+</li>
+</ul>
+<h3 id="motion-capture">Motion Capture
+</h3><ul>
+<li>
+<p>Data-driven approach to creating animation sequences</p>
+<ul>
+<li>Record real-world performances (e.g. person executing an activity)</li>
+<li>Extract pose as a function of time from the data collected</li>
+</ul>
+</li>
+<li>
+<p>Pros and Cons</p>
+<ul>
+<li>Strengths
+<ul>
+<li>Can capture large amounts of real data quickly</li>
+<li>Realism can be high</li>
+</ul>
+</li>
+<li>Weaknesses
+<ul>
+<li>Complex and costly set-ups</li>
+<li>Captured animation may not meet artistic needs, requiring alterations</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Optical Motion Capture</p>
+<p><a class="link" href="https://www.notion.so"  target="_blank" rel="noopener"
+    >https://www.notion.so</a></p>
+</li>
+<li>
+<p>Challenges of Facial Animation</p>
+<ul>
+<li>Uncanny valley (恐怖谷效应)
+<ul>
+<li>In robotics and graphics</li>
+<li>As artificial character appearance approaches human realism, our emotional response goes negative, until it achieves a sufficiently convincing level of realism in expression</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>The Production Pipeline</p>
+<p><img src="/image%2095.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<ul>
+<li>VFX (视觉特效) vs. SFX (特效)
+<ul>
+<li>可以说SFX是VFX的超集</li>
+<li>VFX 往往指利用计算机后期利用图形学等知识制作出来的效果</li>
+<li>SFX 还包含除VFX外的物理效果, 也就是现实中制作的效果</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="single-particle-simulation">Single Particle Simulation
+</h2><ul>
+<li>First study motion of a single particle
+<ul>
+<li>Later, generalize to a multitude of particles</li>
+</ul>
+</li>
+<li>To start, assume motion of particle determined by a velocity vector field that is a function of position and time:</li>
+</ul>
+$$
+v(x,t)
+$$<ul>
+<li>
+<p><strong>Ordinary Differential Equation (ODE)</strong></p>
+<ul>
+<li>Computing position of particle over time requires solving a first-order ordinary differential:</li>
+</ul>
+$$
+    \frac{dx}{dt}=\dot{x}=v(x,t)
+    $$<ul>
+<li>“First-order” refers to the first derivative being taken.
+<ul>
+<li>“Ordinary” means no “partial” derivatives, i.e. x is just a function of</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="explicit-euler-method">Explicit Euler method
+</h3><ul>
+<li>
+<p>Euler’s Method</p>
+<ul>
+<li>Simple iterative method</li>
+<li>Commonly used</li>
+<li>Very inaccurate</li>
+<li>Most often goes <strong>unstable</strong></li>
+</ul>
+$$
+    x^{t+\Delta t} = x^t + \Delta t \dot{x}^t\\
+    \dot{x}^{t+\Delta t} = \dot{x}^t + \Delta t \ddot{x}^t
+    $$</li>
+</ul>
+<h3 id="instability-and-improvements">Instability and improvements
+</h3><ul>
+<li>
+<p>With numerical integration, errors accumulate</p>
+</li>
+<li>
+<p>Euler integration is particularly bad</p>
+<p><img src="/image%2096.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%2097.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+<h3 id="combating-instability">Combating Instability
+</h3><ul>
+<li>
+<p>Some Methods to Combat Instability</p>
+<ul>
+<li>Midpoint method / Modified Euler</li>
+</ul>
+</li>
+<li>
+<p>Adaptive step size</p>
+<ul>
+<li>Compare one step and two half-steps, recursively, until error is acceptable</li>
+</ul>
+</li>
+<li>
+<p>Implicit methods</p>
+<ul>
+<li>Use the velocity at the next time step (hard)</li>
+</ul>
+</li>
+<li>
+<p>Position-based / Verlet integration</p>
+<ul>
+<li>Constrain positions and velocities of particles after time step</li>
+</ul>
+</li>
+<li>
+<p>Midpoint Method</p>
+<ul>
+<li>(a) Compute Euler step</li>
+<li>(b) Compute derivative at midpoint of Euler step</li>
+<li>(c) Update position using midpoint derivative</li>
+</ul>
+$$
+    x_{mid}=x(t)+\Delta t / 2 \cdot v(x(t),t)\\
+    x(t+\Delta t) = x(t) + \Delta t \cdot v(x_{mid},t)
+    $$</li>
+<li>
+<p>Modified Euler</p>
+<ul>
+<li>
+<p>Average velocity at the start and end of step</p>
+</li>
+<li>
+<p>Better results</p>
+$$
+        x^{t+\Delta t}=x^t+\frac{\Delta t}{2}(\dot{x}^t + \dot{x}^{t+\Delta t})\\
+        \dot{x}^{t+\Delta t} = \dot{x}^t + \Delta t \ddot{x}^t\\
+        x^{t+\Delta t} = x^t + \Delta t \dot{x}^t + \frac{(\Delta)^2}{2}\ddot{x}^t
+        $$</li>
+</ul>
+</li>
+<li>
+<p>Adaptive Step Size</p>
+<ul>
+<li>如果一次模拟后与实际误差不大 代表步长可以保持/增大 否则减少步长</li>
+</ul>
+<p><img src="/image%2098.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>Implicit Euler Method</p>
+<ul>
+<li>Informally called backward methods</li>
+<li>Use derivatives in future, for the current step</li>
+</ul>
+$$
+    x^{t+\Delta t} = x^t + \Delta t \dot{x}^{t+\Delta t}\\
+    \dot{x}^{t+\Delta t} = \dot{x}^t + \Delta t \ddot{x}^{t+\Delta t}
+    $$<ul>
+<li>Solve nonlinear problem for $x^{t+\Delta t}<del>and</del> \dot{x}^{t+\Delta t}$</li>
+<li>Use root-finding algorithm, e.g. Newton’s method Offers much better stability</li>
+<li>How to determine / quantize “stability” ?
+<ul>
+<li>We use the local truncation error (every step) / total accumulated error (overall)</li>
+<li>Absolute values do not matter, but the orders w.r.t. step</li>
+<li>Implicit Euler has order 1, which means that
+<ul>
+<li>Local truncation error: O(h^2) and</li>
+<li>Global truncation error: O(h) (h is the step, i.e. \Delta t)</li>
+</ul>
+</li>
+<li>Understanding of O(h)
+<ul>
+<li>If we halve h, we can expect the error to havle as well</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Runge-Kutta Families</p>
+<ul>
+<li>A family of advanced methods for solving ODEs
+<ul>
+<li>
+<p>Especially good at dealing with non-linearity</p>
+</li>
+<li>
+<p>It’s order-four version is the most widely used, a.k.a. RK4</p>
+</li>
+<li>
+<p>Initial condition:</p>
+$$
+            \frac{dy}{dt}=f(t,y), y(t_0)=y_0
+            $$</li>
+<li>
+<p>RK4 solution:</p>
+$$
+            y_{n+1} = y_n + \frac16h(k_1+2k_2+2k_3+k_4)\\
+            t_{n+1} = t_n+h
+            $$</li>
+<li>
+<p>where:</p>
+$$
+            k_1 = f(t_n,y_n),\\
+            k_2 = f(t_n+\frac{h}2,y_n + h \frac{k_1}{2}),\\
+            k_3 = f(t_n+\frac{h}{2}, y_n + h \frac{k_2}{2}),\\
+            k_4 = f(t_n + h, y_n + hk_3).
+            $$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Position-Based / Verlet Integration</p>
+<ul>
+<li>Idea:
+<ul>
+<li>After modified Euler forward-step, constrain positions of particles to prevent divergent, unstable behavior</li>
+<li>Use constrained positions to calculate velocity</li>
+<li>Both of these ideas will dissipate energy, stabilize</li>
+</ul>
+</li>
+<li>Pros / cons
+<ul>
+<li>Fast and simple</li>
+<li>Not physically based, dissipates energy ( error )</li>
+</ul>
+</li>
+<li>Details in Assignment 8</li>
+</ul>
+</li>
+</ul>
+<h2 id="rigid-body-simulation">Rigid body simulation
+</h2><ul>
+<li>
+<p>Simple case</p>
+<ul>
+<li>Similar to simulating a particle</li>
+<li>Just consider a bit more properties</li>
+</ul>
+<p><img src="/image%2099.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+<h2 id="fluid-simulation">Fluid simulation
+</h2><ul>
+<li>
+<p>A Simple Position-Based Method</p>
+<ul>
+<li>Key idea
+<ul>
+<li>Assuming water is composed of small rigid-body spheres</li>
+<li>Assuming the water cannot be compressed (i.e. const. density)</li>
+<li>So, as long as the density changes somewhere, it should be “corrected” via changing the positions of particles</li>
+<li>You need to know the gradient of the density anywhere w.r.t. each particle’s position</li>
+<li>Update? Just gradient descent!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Eulerian vs. Lagrangian</p>
+<ul>
+<li>
+<p>Two different views to simulating large collections of matters</p>
+<p><img src="/image%20100.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Material Point Method (MPM)</p>
+<ul>
+<li>Hybrid, combining Eulerian and Lagrangian views
+<ul>
+<li>Lagrangian: consider particles carrying material properties</li>
+<li>Eulerian: use a grid to do numerical integration</li>
+<li>Interaction: particles transfer properties to the grid, grid performs update, then interpolate back to particles</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="other-insertion">Other Insertion
+</h1><h2 id="shadows">Shadows
+</h2><ul>
+<li>How to draw shadows using rasterization?</li>
+<li>Shadow mapping!</li>
+</ul>
+<h3 id="shadow-mapping">Shadow Mapping
+</h3><ul>
+<li>
+<p>An Image-space Algorithm</p>
+<ul>
+<li>no knowledge of scene’s geometry during shadow computation</li>
+<li>must deal with aliasing artfacts</li>
+</ul>
+</li>
+<li>
+<p>Key idea:</p>
+<ul>
+<li>the points NOT in shadow must be seen both <strong>by the light</strong> and <strong>by the camera</strong></li>
+</ul>
+</li>
+<li>
+<p>Pass 1 : Render from light</p>
+<ul>
+<li>Depth image from light source</li>
+</ul>
+</li>
+<li>
+<p>Pass 2B : Project to light</p>
+<ul>
+<li>Project visible points in eye view back to light source</li>
+</ul>
+<p><img src="/image%20101.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%20102.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+</li>
+<li>
+<p>分析:</p>
+<ul>
+<li>这种方法需要多记录一个通过在光源发出的虚拟摄像机的Z-Buffer 来记录对应x,y上的深度, 若是观测摄像机<strong>扫的点对应到该摄像机的深度</strong>和<strong>虚拟摄像机Z-Buffer 投影 过来记录的深度</strong>不一致, 则代表该点是阴影处</li>
+<li>若对于光源与物体静止均不动的情况 可以做烘培减少实时资源消耗</li>
+<li>问题:
+<ul>
+<li>会出现float造成的误差问题导致出现阴影位置错乱 会考虑到误差/容忍度, 但是不能完全解决问题</li>
+<li>这种方法仅适用于点光源的场景</li>
+<li>质量依赖于shadow map的精度(general problem with image-based techniques)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Problems with shadow maps</p>
+</li>
+</ul>
+<p><img src="/image%20103.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%20104.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<h1 id="题外话">题外话
+</h1><h2 id="ta入门">TA入门
+</h2><p><img src="/image%20105.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%20106.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%20107.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%20108.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p><img src="/image%20109.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 Jun 13, 2026 14:17 &#43;0800
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2025 - 
+        
+        2026 白楽 - shiroraku
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
