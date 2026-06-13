@@ -7,7 +7,52 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>白楽 - shiroraku</copyright>
-        <lastBuildDate>Mon, 16 Mar 2026 14:35:19 +0800</lastBuildDate><atom:link href="https://shiroire.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 13 Jun 2026 14:06:15 +0800</lastBuildDate><atom:link href="https://shiroire.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>HowToUseHugo</title>
+        <link>https://shiroire.github.io/p/howtousehugo/</link>
+        <pubDate>Sat, 13 Jun 2026 12:48:12 +0800</pubDate>
+        
+        <guid>https://shiroire.github.io/p/howtousehugo/</guid>
+        <description>&lt;h1 id=&#34;如何使用-hugo-搭建个人博客&#34;&gt;如何使用 Hugo 搭建个人博客
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Hugo框架本地部署
+&lt;ul&gt;
+&lt;li&gt;先去Github Hugo 项目下载一个Hugo的扩展框架;&lt;/li&gt;
+&lt;li&gt;下好后使用以下指令创建一个hugo项目
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.\hugo new site dev
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;然后去hugo Theme 挑选一个自己喜欢的主题
+&lt;ul&gt;
+&lt;li&gt;在github下载对应主题源码, 放到\dev\themes目录下并解压&lt;/li&gt;
+&lt;li&gt;将主题下exampleSites的content目录和config.yaml复制到\dev下&lt;/li&gt;
+&lt;li&gt;\dev\content\post\rich-content目录删掉 (里面含外网网址视频引用, 可能导致访问超时而导致启动不了)&lt;/li&gt;
+&lt;li&gt;保证 config.yaml 下的theme属性与\themes下的主题目录名一致&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;放置规则
+&lt;ul&gt;
+&lt;li&gt;\dev\content\post\目录下 放 对应的内容文件.md&lt;/li&gt;
+&lt;li&gt;hugo new content\post\内容名\index.md 创建一个新内容页面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;自动部署
+&lt;ul&gt;
+&lt;li&gt;阅读Hugo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>How to use the stack theme</title>
         <link>https://shiroire.github.io/p/how-to-use-the-stack-theme/</link>
         <pubDate>Mon, 16 Mar 2026 14:29:45 +0800</pubDate>
