@@ -10,7 +10,7 @@
 <meta property='og:description' content="此文涉及毕业论文相关点点">
 <meta property='og:url' content='https://shiroire.github.io/p/graduation_thesis_relation/'>
 <meta property='og:site_name' content='\ shiroire /'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2026-06-13T15:11:08&#43;08:00'/><meta property='article:modified_time' content='2026-06-26T08:59:26&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2026-06-13T15:11:08&#43;08:00'/><meta property='article:modified_time' content='2026-06-26T12:24:01&#43;08:00'/>
 <meta name="twitter:title" content="Graduation_thesis_Relation">
 <meta name="twitter:description" content="此文涉及毕业论文相关点点">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -324,7 +324,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 4 分钟
                 </time>
             </div>
         
@@ -340,7 +340,343 @@
     
     
     <h1 id="rfc-9807阅读">RFC 9807阅读
-</h1>
+</h1><h2 id="阅读须知">阅读须知
+</h2><h3 id="符号表示">符号表示
+</h3><ul>
+<li>ISO2P 和 OS2IP : 非负整数 $\leftrightarrow$ 8位字符串</li>
+<li>concat(x0,&hellip;,xN) : 连接字节字符串</li>
+<li>random(n) : 生成一个长度为n字节的密码学安全伪随机字节字符串(CSPRNG)</li>
+<li>zeroes(n) : 生成一个长度为n字节的全0字符串</li>
+<li>xor(a,b) : 对俩个字符串运用异或</li>
+<li>ct_equal(a,b) : 返回长序列a,b是否相等 且运行时间不受长度影响</li>
+<li>除非特殊说明, 下文说的&quot;随机&quot;都是&quot;均匀随机&quot;</li>
+</ul>
+<h3 id="密码学依赖">密码学依赖
+</h3><ul>
+<li>Oblivious Pseudorandom Function (OPRF); <a class="link" href="#orpf-%e5%87%bd%e6%95%b0" >Section ORPF</a></li>
+<li>Key Derivation Function (KDF); <a class="link" href="#kdf-%e5%87%bd%e6%95%b0--mac-%e6%b6%88%e6%81%af%e9%aa%8c%e8%af%81%e7%a0%81" >Section KDF&amp;MAC</a></li>
+<li>Message Authentication Code (MAC); <a class="link" href="#kdf-%e5%87%bd%e6%95%b0--mac-%e6%b6%88%e6%81%af%e8%ae%a4%e8%af%81%e7%a0%81" >Section KDF&amp;MAC</a></li>
+<li>Cryptographic Hash Function; <a class="link" href="#chf-%e5%87%bd%e6%95%b0--ksf-%e5%87%bd%e6%95%b0" >Section CHF &amp; KSF</a></li>
+<li>Key Stretching Function (KSF); <a class="link" href="#chf-%e5%87%bd%e6%95%b0--ksf-%e5%87%bd%e6%95%b0" >Section CHF &amp; KSF</a></li>
+</ul>
+<h4 id="orpf-函数">ORPF 函数
+</h4><blockquote>
+<p>一种无知的伪随机函数（OPRF）是客户端和服务器之间用于计算伪随机函数（PRF）的两方协议，其中 PRF 密钥由服务器持有，函数的输入由客户端提供。客户端除了获得的输出外，不会学习到任何关于 PRF 的信息，而服务器不会学习到客户端的输入或函数输出。本规范依赖于第 3.1 节[RFC9497]中指定的素数阶 OPRF 构造 modeOPRF （ 0x00 ）。</p>
+</blockquote>
+<p>以下OPRF客户端API被用到:</p>
+<ul>
+<li>Blind(element)
+<ul>
+<li>创建并输出 ( blind , blinded_element )，其中包含输入 element 的盲化表示，表示为 blinded_element ，以及用于撤销盲化过程的值，表示为 blind 。这等效于第 3.3.1 节中[RFC9497]中描述的 Blind 函数。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Input:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">PrivateInput input
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Output:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Scalar blind
+</span></span><span class="line"><span class="cl">Element blindedElement
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Parameters:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Group G
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Errors: InvalidInputError
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">def Blind(input):
+</span></span><span class="line"><span class="cl">blind = G.RandomScalar()
+</span></span><span class="line"><span class="cl">inputElement = G.HashToGroup(input)
+</span></span><span class="line"><span class="cl">if inputElement == G.Identity():
+</span></span><span class="line"><span class="cl">    raise InvalidInputError
+</span></span><span class="line"><span class="cl">blindedElement = blind * inputElement
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">return blind, blindedElement
+</span></span><span class="line"><span class="cl">    ```
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>Finalize(element, blind, evaluated_element):
+<ul>
+<li>完成使用输入 element 、随机反演器 blind 和评估输出 evaluated_element 的 OPRF 评估，生成输出 oprf_output 。这等效于 [RFC9497] 第 3.3.1 节中描述的 Finalize 函数。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Input:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    PrivateInput input
+</span></span><span class="line"><span class="cl">    Scalar blind
+</span></span><span class="line"><span class="cl">    Element evaluatedElement
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Output:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    opaque output[Nh]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Parameters:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    Group G
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">def Finalize(input, blind, evaluatedElement):
+</span></span><span class="line"><span class="cl">    N = G.ScalarInverse(blind) * evaluatedElement
+</span></span><span class="line"><span class="cl">    unblindedElement = G.SerializeElement(N)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    hashInput = I2OSP(len(input), 2) || input ||
+</span></span><span class="line"><span class="cl">                I2OSP(len(unblindedElement), 2) || unblindedElement ||
+</span></span><span class="line"><span class="cl">                &#34;Finalize&#34;
+</span></span><span class="line"><span class="cl">    return Hash(hashInput)
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<p>以下 ORPF 服务器API被用到:</p>
+<ul>
+<li>BlindEvalueate(k, blinded_element):
+<ul>
+<li>使用输入密钥 k 评估盲输入 blinded_element  ，生成输出元素 evaluated_element 。这等效于 [ RFC9497] 第 3.3.1 节中描述的 BlindEvaluate 函数，其中 k 是私钥参数。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Input:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    Scalar skS
+</span></span><span class="line"><span class="cl">    Element blindedElement
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Output:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    Element evaluatedElement
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">def BlindEvaluate(skS, blindedElement):
+</span></span><span class="line"><span class="cl">    evaluatedElement = skS * blindedElement
+</span></span><span class="line"><span class="cl">    return evaluatedElement
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>DeriveKeyPair(seed, info):
+<ul>
+<li>创建并输出（ sk ， pk ），它们是由输入 seed 和输入 info 参数通过确定性方法派生出的私钥和公钥，如 [ RFC9497] 第 3.2 节所述。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Input:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    opaque seed[32]
+</span></span><span class="line"><span class="cl">    PublicInput info
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Output:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    Scalar skS
+</span></span><span class="line"><span class="cl">    Element pkS
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Parameters:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    Group G
+</span></span><span class="line"><span class="cl">    PublicInput contextString
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Errors: DeriveKeyPairError
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">def DeriveKeyPair(seed, info):
+</span></span><span class="line"><span class="cl">    deriveInput = seed || I2OSP(len(info), 2) || info
+</span></span><span class="line"><span class="cl">    counter = 0
+</span></span><span class="line"><span class="cl">    skS = 0
+</span></span><span class="line"><span class="cl">    while skS == 0:
+</span></span><span class="line"><span class="cl">        if counter &gt; 255:
+</span></span><span class="line"><span class="cl">        raise DeriveKeyPairError
+</span></span><span class="line"><span class="cl">        skS = G.HashToScalar(deriveInput || I2OSP(counter, 1),
+</span></span><span class="line"><span class="cl">                            DST = &#34;DeriveKeyPair&#34; || contextString)
+</span></span><span class="line"><span class="cl">        counter = counter + 1
+</span></span><span class="line"><span class="cl">    pkS = G.ScalarMultGen(skS)
+</span></span><span class="line"><span class="cl">    return skS, pkS
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<p>最后, 本规范使用了以下共享API和参数:</p>
+<ul>
+<li>SerializeElement(element):
+<ul>
+<li>将输入element映射到固定长度的字节数组</li>
+</ul>
+</li>
+<li>DeserializeElement(buf):
+<ul>
+<li>尝试将输入的字节数组 buf 映射到一个 OPRF 组元素。如果失败，此函数可能会引发 DeserializeError；有关更多详细信息，请参阅 [ RFC9497] 的第 2.1 节。</li>
+</ul>
+</li>
+</ul>
+<h4 id="kdf-函数--mac-消息验证码">KDF 函数 &amp; MAC 消息验证码
+</h4><blockquote>
+<p>密钥派生函数（KDF）是一种函数，它接受一些初始密钥材料作为输入，并使用它来派生一个或多个密码学上安全的密钥。本规范使用一个具有以下 API 和参数的 KDF：</p>
+</blockquote>
+<ul>
+<li>Extract(salt, ikm):
+<ul>
+<li>从输入密钥材料 ikm 和可选的字节串 salt 中提取一个固定长度为 Nx 字节的伪随机密钥。</li>
+</ul>
+</li>
+<li>Expand(prk, info, L):
+<ul>
+<li>扩展伪随机密钥 prk ，使用字符串 info ，生成 L 字节的输出密钥材料。</li>
+</ul>
+</li>
+<li>Nx :
+<ul>
+<li>Extract() 函数的输出大小（以字节为单位）。</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>本规范还使用了一种基于随机密钥的鲁棒消息认证码（MAC）。有关此特性的更多详细信息，请参见第 10.6 节。基于随机密钥的鲁棒 MAC 的 API 和参数如下：</p>
+</blockquote>
+<ul>
+<li>MAC(key, msg):
+<ul>
+<li>使用输入 msg 的密钥 key 计算消息认证码，生成固定长度的输出 Nm 字节</li>
+</ul>
+</li>
+<li>Nm:
+<ul>
+<li>MAC() 函数的输出大小（以字节为单位）。</li>
+</ul>
+</li>
+</ul>
+<h4 id="chf-函数--ksf-函数">CHF 函数 &amp; KSF 函数
+</h4><blockquote>
+<p>本规范使用一种抗碰撞哈希函数，具有以下 API 和参数：</p>
+</blockquote>
+<ul>
+<li>Hash(msg):
+<ul>
+<li>将输入 msg 应用于加密哈希函数，生成一个固定长度的摘要，大小为 Nh 字节。</li>
+</ul>
+</li>
+<li>Nh:
+<ul>
+<li>Hash() 函数的输出大小（以字节为单位）。</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>本规范使用一种密钥拉伸函数（KSF），它是一种缓慢且昂贵的加密哈希函数，具有以下 API：</p>
+</blockquote>
+<ul>
+<li>Stretch(msg):
+<ul>
+<li>对输入 msg 应用一个密钥拉伸函数来拉伸并增强其抵抗离线字典攻击的能力。该函数还需要满足抗碰撞性。</li>
+</ul>
+</li>
+</ul>
+<h2 id="概述">概述
+</h2><h3 id="opaque的定义">OPAQUE的定义
+</h3><p>OPAQUE被定义为三种功能的组合</p>
+<ul>
+<li>an Oblivious Psedorandom Function(OPRF)</li>
+<li>a key recovery mechanism</li>
+<li>an authenticated key exchange (AKE) protocol</li>
+<li>它可以被视为一个编译器 可将任何合适的 AKE 转换成 安全的 aPAKE</li>
+</ul>
+<p>OPAQUE的流程:注册与认证密钥交换 (registration and authenticated key exchange)</p>
+<ul>
+<li>注册阶段, 用户将其密码注册到服务器, 并在服务器上存储用于<b>恢复凭证</b>的信息。恢复这些凭证仅能靠知道客户端密码来完成。</li>
+<li>认证密钥交换阶段, 客户端用其密码来恢复这些凭据, 并随后将它们输入到一个<b>AKE协议</b>中。这个阶段有<b>额外的机制</b>来防止主动攻击者与服务器交互以猜测或确认第一阶段注册的客户端。服务器也能利用<b>这种机制</b>来保护客户端免受这种枚举攻击</li>
+</ul>
+
 </section>
 
 
@@ -369,7 +705,7 @@
 
 
         <span>
-            最后更新于 Jun 26, 2026 08:59 &#43;0800
+            最后更新于 Jun 26, 2026 12:24 &#43;0800
         </span>
     </section></footer>
 
